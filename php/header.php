@@ -1,3 +1,15 @@
+<?php 
+$URL = 'data/meymiksKonsantreIcecekler.json';
+$JSON = file_get_contents($URL);
+$konsantreIceckler_JSON = json_decode($JSON);
+
+$URL = 'data/captainCustoAlkolsuzSampanya.json'; 
+$JSON = file_get_contents($URL);
+$alkolsuzSampanya_JSON = json_decode($JSON);
+
+
+?>
+
 <body>
   <div class="page-wrapper"> 
   

@@ -120,9 +120,9 @@
                 <!--Block-->
                 <div class="offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                        <div class="image"><a href="menu-list-1.html"><img src="images/captan.jpg" alt=""></a></div>
-                        <h3><a href="menu-list-1.html">Konsantre İçecek (Meyveli Şuruplar)</a></h3>
-                        <div class="more-link"><a href="menu-list-1.html">view menu</a></div>
+                        <div class="image"><a href="product_list.php?name=boje-moy-kokteyl-suruplari"><img src="images/captan.jpg" alt=""></a></div>
+                        <h3><a href="product_list.php?name=boje-moy-kokteyl-suruplari">Konsantre İçecek (Meyveli Şuruplar)</a></h3>
+                        <div class="more-link"><a href="product_list.php?name=boje-moy-kokteyl-suruplari">view menu</a></div>
                     </div>
                 </div>
 

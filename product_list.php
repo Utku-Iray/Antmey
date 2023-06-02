@@ -1,21 +1,29 @@
 <?php
 
-$URL = 'data/captainCustoAlkolsuzSampanya.json';
-$JSON = file_get_contents($URL);
-$blog_JSON = json_decode($JSON);
-$alkolsuzSampanya_JSON = array();
+$getCategoriesJSON = file_get_contents('data/categories.json');
+$categoriesArray = json_decode($getCategoriesJSON);
 
-if (isset($_GET["name"])) {
+$getProductsJSON = file_get_contents('data/products.json');
+$productsArray = json_decode($getProductsJSON);
 
-    $name = $_GET['name'];
-    for ($i = 0; $i < count($alkolsuzSampanya_JSON); $i++) {
-        if ($alkolsuzSampanya_JSON[$i]-> link == $name) {
+$selectedCategory = array();
+$selectedProducts = array();
 
-            array_push($selectedVal, $alkolsuzSampanya_JSON[$i]);
+if (isset($_GET["category"])) {
+    $name = $_GET['category'];
+    // Kategori
+    for ($i = 0; $i < count($categoriesArray); $i++) {
+        if ($categoriesArray[$i]->category_url == $name) {
+            array_push($selectedCategory, $categoriesArray[$i]);
         }
     }
-}
-else {
+    // Ürün
+    for ($i = 0; $i < count($productsArray); $i++) {
+        if ($productsArray[$i]->category_url == $name) {
+            array_push($selectedProducts, $productsArray[$i]);
+        }
+    }
+} else {
     header("Location: product_list.php");
 }
 
@@ -25,12 +33,12 @@ else {
 
 <!-- Inner Banner Section -->
 <section class="inner-banner">
-    <div class="image-layer" style="background-image: url(images/background/banner-image-2.jpg);"></div>
+    <div class="image-layer" style="background-image: url(images/background/banner-image-1.jpg);"></div>
     <div class="auto-container">
         <div class="inner">
             <div class="subtitle"><span>delicious & amazing</span></div>
             <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-            <h1><span><?= $name ?></span></h1>
+            <h1><span><?= $selectedCategory[0]->category_name ?></span></h1>
         </div>
     </div>
 </section>
@@ -50,14 +58,14 @@ else {
             <!--Item-->
 
             <?php
-            foreach ($alkolsuzSampanya_JSON as $alkolsuzSampanya) { ?>
+            foreach ($selectedProducts as $product) { ?>
                 <div class="offer-block-three col-xl-2 col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                         <div class="image">
-                            <a href="#"><img src="<?= $alkolsuzSampanya->product_images ?>" alt=""></a>
+                            <a href="#"><img src="<?= $product->product_images ?>" alt=""></a>
                         </div>
-                        <h4><a href="menu-list.html"><?= $alkolsuzSampanya -> product_name ?></a></h4>
-                        <div class="text desc"><?= $alkolsuzSampanya -> product_description ?></div>
+                        <h4><a href="menu-list.html"><?= $product->product_name ?></a></h4>
+                        <div class="text desc"><?= $product->product_description ?></div>
                         <!-- <div class="price">$39.00</div> -->
                     </div>
                 </div>

@@ -1,0 +1,71 @@
+[
+    {
+        "product_name": "Dubai",
+        "product_images": "images/product/captainCustoAlkolsuzSampanya/dubai.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "captan-custo-alkolsuz-sampanya"
+    },
+    {
+        "product_name": "Istanbul",
+        "product_images": "images/product/captainCustoAlkolsuzSampanya/istanbul.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "captan-custo-alkolsuz-sampanya"
+    },
+    {
+        "product_name": "Las Palmas",
+        "product_images": "images/product/captainCustoAlkolsuzSampanya/Las-Palmas.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "captan-custo-alkolsuz-sampanya"
+    },
+    {
+        "product_name": "Los Angeles",
+        "product_images": "images/product/captainCustoAlkolsuzSampanya/Los-Angeles.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "captan-custo-alkolsuz-sampanya"
+    },
+    {
+        "product_name": "Rio De Janerio",
+        "product_images": "images/product/captainCustoAlkolsuzSampanya/Rio-De-Janeiro.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "captan-custo-alkolsuz-sampanya"
+    },
+    {
+        "product_name": "Acı Badem",
+        "product_images": "images/product/bojeMoyKokteylSuruplari/aci-badem.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "boje-moy-kokteyl-suruplari"
+    }
+    ,
+    {
+        "product_name": "Antmey Kokteyl Şurubu Kolisi",
+        "product_images": "images/product/bojeMoyKokteylSuruplari/antmey-kokyteyl-surubu-kolisi.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "boje-moy-kokteyl-suruplari"
+    } ,
+    {
+        "product_name": "Böğürtlen",
+        "product_images": "images/product/bojeMoyKokteylSuruplari/bogurtlen.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "boje-moy-kokteyl-suruplari"
+    },
+    {
+        "product_name": "Çarkı Felek",
+        "product_images": "images/product/bojeMoyKokteylSuruplari/carkifelek.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "boje-moy-kokteyl-suruplari"
+    },
+    {
+        "product_name": "Çikolata",
+        "product_images": "images/product/bojeMoyKokteylSuruplari/cikolata.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "boje-moy-kokteyl-suruplari"
+    },
+    {
+        "product_name": "Çikolata",
+        "product_images": "images/product/bojeMoyKokteylSuruplari/cikolata.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "boje-moy-kokteyl-suruplari"
+    }
+    
+    
+]

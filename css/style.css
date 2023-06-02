@@ -4229,7 +4229,7 @@ body.visible-sidebar {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.70;
+    opacity: 0.90;
 }
 
 .inner-banner .pattern-image {
@@ -4251,7 +4251,7 @@ body.visible-sidebar {
     position: relative;
     text-transform: uppercase;
     font-weight: 700;
-    color: var(--main-color);
+    color: black;
     font-size: var(--font-12);
     letter-spacing: 0.40em;
     margin-bottom: var(--margin-bottom-0);
@@ -4270,6 +4270,7 @@ body.visible-sidebar {
     position: relative;
     display: inline-block;
     vertical-align: top;
+    color: black;
 }
 
 

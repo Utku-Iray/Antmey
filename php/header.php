@@ -1,12 +1,7 @@
 <?php
-// $URL = 'data/meymiksKonsantreIcecekler.json';
-// $JSON = file_get_contents($URL);
-// $konsantreIceckler_JSON = json_decode($JSON);
-
-// $URL = 'data/captainCustoAlkolsuzSampanya.json';
-// $JSON = file_get_contents($URL);
-// $alkolsuzSampanya_JSON = json_decode($JSON);
-
+$URL = 'data/categories.json';
+$JSON = file_get_contents($URL);
+$categories_JSON = json_decode($JSON);
 
 ?>
 
@@ -116,11 +111,13 @@
                                         <li><a href="hakkimizda.php">HAKKIMIZDA</a></li>
                                         <li class="dropdown"><a href="urunler.php">ÜRÜNLER</a>
                                             <ul>
-                                                <li><a href="#">Dropdown Menu 1</a></li>
-                                                <li><a href="#">Dropdown Menu 1</a></li>
+                                                <?php foreach ($categories_JSON as $category) { ?>
+                                                    <li><a href="product_list.php?category=<?= $category->category_url ?>"><?= $category->category_name ?></a></li>
+
+                                                <?php   } ?>
                                             </ul>
                                         </li>
-                                        <li><a href="katalog.php">KATALOG</a></li>
+                                        <li><a href="pdf/antmeyKatalog.pdf" target="_blank">KATALOG</a></li>
                                         <!-- <li class="dropdown"><a href="#">Pages</a>
                                         <ul>
                                             <li><a href="#">Dropdown Menu 1</a></li>

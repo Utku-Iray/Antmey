@@ -6,7 +6,7 @@
             <div class="image-layer" style="background-image: url(images/background/banner-image-2.jpg);"></div>
             <div class="auto-container">
                 <div class="inner">
-                    <div class="subtitle"><span>delicious & amazing</span></div>
+                    <div class="subtitle"><span>Antmey</span></div>
                     <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
                     <h1><span>Our Menu 2</span></h1>
                 </div>
@@ -17,7 +17,7 @@
         <!--Special Offer Section-->
         <section class="special-offer-two">
             <div class="left-bg"><img src="images/background/bg-20.png" alt="" title=""></div>
-            <div class="right-bg"><img src="images/background/bg-19.png" alt="" title=""></div>
+            <!-- <div class="right-bg"><img src="images/background/bg-19.png" alt="" title=""></div> -->
             <div class="auto-container">
                 <div class="title-box centered">
                     <div class="subtitle"><span>special offer</span></div>

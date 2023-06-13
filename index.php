@@ -1,548 +1,771 @@
-<!doctype html>
-<html lang="zxx">
-
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
 
+<!-- Banner Section -->
+<section class="banner-section">
 
+    <div class="banner-container">
+        <div class="banner-slider">
+            <div class="swiper-wrapper">
+                <!--Slide Item-->
+                <div class="swiper-slide slide-item">
+                    <div class="image-layer" style="background-image: url(images/slider1.jpg);"></div>
+                    <div class="auto-container">
+                        <div class="content-box">
+                            <div class="content">
+                                <div class="clearfix">
+                                    <div class="inner">
+                                        <div class="subtitle"><span>LANSMAN ÖZEL</span></div>
+                                        <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                                        <h1><span>Hikayeleri baştan yazan <br> formüller için..</span></h1>
+                                        <!-- <div class="text">Come with family & feel the joy of mouthwatering food</div> -->
+                                        <div class="links-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                            <div class="link">
+                                                <a href="menu-list-1.html" class="theme-btn btn-style-two clearfix">
+                                                    <span class="btn-wrap">
+                                                        <span class="text-one">Hakkımızda</span>
+                                                        <span class="text-two">Hakkımızda</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
 
-
-<!-- Start Dental Tourism Banner Area -->
-<div class="home-slides owl-carousel owl-theme">
-    <div class="main-slides-item">
-        <div class="container">
-            <div class="main-slides-content">
-                <span class="sub-title">
-                    <i class="flaticon-hashtag-symbol"></i>
-                    <?php echo $lang['surgery'] ?>
-                </span>
-                <h1><?php echo $lang['cosmeticSurgery'] ?> </h1>
-                <p><?php echo $lang['welcomeTheNew'] ?></p>
-
-
-                <div class="slides-btn">
-                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="main-slides-item item-bg2">
-        <div class="container">
-            <div class="main-slides-content">
-                <span class="sub-title">
-                    <i class="flaticon-hashtag-symbol"></i>
-                    <?php echo $lang['surgery'] ?>
-                </span>
-                <h1><?php echo $lang['bariatricSurgery'] ?></h1>
-                <p><?php echo $lang['welcomeTheNew'] ?></p>
-
-
-                <div class="slides-btn">
-                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="main-slides-item item-bg3">
-        <div class="container">
-            <div class="main-slides-content">
-                <span class="sub-title">
-                    <i class="flaticon-hashtag-symbol"></i>
-                    <?php echo $lang['procedures'] ?>
-                </span>
-                <h1><?php echo $lang['dentalProcedures'] ?></h1>
-                <p><?php echo $lang['welcomeTheNew'] ?></p>
-
-                <div class="slides-btn">
-                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="main-slides-item item-bg4">
-        <div class="container">
-            <div class="main-slides-content">
-                <span class="sub-title">
-                    <i class="flaticon-hashtag-symbol"></i>
-                    <?php echo $lang['procedures'] ?>
-                </span>
-                <h1> <?php echo $lang['hairTransplant'] ?> </h1>
-                <p><?php echo $lang['welcomeTheNew'] ?></p>
-
-                <div class="slides-btn">
-                    <a href="appointment.php" class="default-btn"><?php echo $lang['bookAppointment'] ?></a>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Dental Tourism Banner Area -->
-
-<!-- Start Dental Tourism Features Area -->
-<div class="dental-tourism-features-area pt-100 pb-75">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-sm-6">
-                <div class="single-dental-tourism-features">
-                    <div class="content">
-                        <div class="icon-image">
-                            <a href="#"><img src="assets/images/dental-tourism/features/travel.png" alt="image"></a>
-
-                            <!-- <div class="number">1</div> -->
-                        </div>
-                        <h3>
-                            <a href="#"><?php echo $lang['tours'] ?></a>
-                        </h3>
-                        <p><?php echo $lang['toursDescription'] ?></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="single-dental-tourism-features">
-                    <div class="content">
-                        <div class="icon-image">
-                            <a href="#"><img src="assets/images/dental-tourism/features/assistance.png" alt="image"></a>
-
-                            <!-- <div class="number">2</div> -->
-                        </div>
-                        <h3>
-                            <a href="#"><?php echo $lang['accommodation'] ?></a>
-                        </h3>
-                        <p><?php echo $lang['accommodationDescription'] ?></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="single-dental-tourism-features">
-                    <div class="content">
-                        <div class="icon-image">
-                            <a href="#"><img src="assets/images/dental-tourism/features/cost.png" alt="image"></a>
-
-                            <!-- <div class="number">3</div> -->
-                        </div>
-                        <h3>
-                            <a href="#"><?php echo $lang['transfer'] ?></a>
-                        </h3>
-                        <p><?php echo $lang['transferDescription'] ?></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Dental Tourism Features Area -->
-
-<!-- Start Dental Tourism About Area -->
-<div class="dental-tourism-about-area pb-100">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-5 col-md-12">
-                <div class="dental-tourism-about-image">
-                    <img src="assets/images/1.png" alt="image">
-
-                    <!-- <div class="certified">
-                        <img src="assets/images/dental-tourism/about/certified.png" alt="image">
-                    </div> -->
-                </div>
-            </div>
-
-            <div class="col-lg-7 col-md-12">
-                <div class="dental-tourism-about-content">
-                    <span># Clinic Phaselis</span>
-                    <h3><?php echo $lang['qualityMeetsAesthetics'] ?></h3>
-
-                    <ul class="list">
-                        <li><i class='bx bxs-check-shield'></i><?php echo $lang['list1qualityMeetsAesthetics'] ?></li>
-                        <li><i class='bx bxs-check-shield'></i><?php echo $lang['list2qualityMeetsAesthetics'] ?></li>
-                        <li><i class='bx bxs-check-shield'></i> <?php echo $lang['list3qualityMeetsAesthetics'] ?></li>
-                        <li><i class='bx bxs-check-shield'></i> <?php echo $lang['list4qualityMeetsAesthetics'] ?></li>
-                    </ul>
-                    <div class="about-btn">
-                        <a href="about-us.php" class="default-btn"><?php echo $lang['learnMore'] ?></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Dental Tourism About Area -->
-<div class="dental-tourism-review-area ptb-100">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="section-title-warp">
-                    <span class="sub-title"># <?php echo $lang['ourClientReview'] ?></span>
-                    <h2><?php echo $lang['realReviewFrom'] ?></h2>
-                </div>
-            </div>
-
-            <!-- <div class="col-lg-4">
-                <div class="section-warp-btn">
-                    <a href="testimonials.html" class="default-btn">See All Review</a>
-                </div>
-            </div> -->
-        </div>
-
-        <div class="dental-tourism-review-slides owl-carousel owl-theme">
-            <?php for ($i = 0; $i < 6; $i++) { ?>
-                <div class="dental-tourism-review-card">
-                    <div class="review-info">
-                        <img src="<?= $reviews_JSON[$i]->reviews_image ?>" class="rounded-circle" alt="image">
-                        <h3><?= $reviews_JSON[$i]->reviews_name ?></h3>
-                        <!-- <span>Manager</span> -->
-                    </div>
-                    <p><?= $reviews_JSON[$i]->reviews_content ?></p>
-                    <ul class="rating">
-                        <li><i class='bx bxs-star'></i></li>
-                        <li><i class='bx bxs-star'></i></li>
-                        <li><i class='bx bxs-star'></i></li>
-                        <li><i class='bx bxs-star'></i></li>
-                        <li><i class='bx bxs-star'></i></li>
-                    </ul>
-                    <div class="icon-quote">
-                        <i class='bx bxs-quote-alt-right'></i>
-                    </div>
-                </div>
-            <?php } ?>
-
-
-        </div>
-    </div>
-</div>
-<!-- Start Dental Tourism Services Area -->
-<section class="services-area pb-70">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
-                <div class="section-title-warp">
-                    <span class="sub-title">
-                        <i class="flaticon-hashtag-symbol"></i>
-                        <?php echo $lang['treatments'] ?>
-                    </span>
-                    <h2> <?php echo $lang['enhanceYourBeauty'] ?></h2>
-                </div>
-            </div>
-
-            <!-- <div class="col-lg-5">
-                        <div class="section-warp-btn">
-                            <a href="services.html" class="default-btn">View All</a>
-                        </div>
-                    </div> -->
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="single-services">
-                    <div class="services-image">
-                        <a href="bariatric_surgery.php"><img src="assets/images/treatments/bariatric.jpeg" alt="image"></a>
-
-                        <div class="icon">
-                            <a href="bariatric_surgery.php"><i class="flaticon-chair"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="services-content">
-                        <h3>
-                            <a href="bariatric_surgery.php"><?php echo $lang['bariatricProcedures'] ?></a>
-                        </h3>
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-services">
-                    <div class="services-image">
-                        <a href="dental_procedures.php"><img src="assets/images/treatments/dental.jpeg" alt="image"></a>
-
-                        <div class="icon">
-                            <a href="dental_procedures.php"><i class="flaticon-chair"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="services-content">
-                        <h3>
-                            <a href="dental_procedures.php"><?php echo $lang['dentalProcedures'] ?></a>
-                        </h3>
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-services">
-                    <div class="services-image">
-                        <a href="hair_transplant_details.php"><img src="assets/images/treatments/hair-transplant.jpeg" alt="image"></a>
-
-                        <div class="icon">
-                            <a href="hair_transplant_details.php"><i class="flaticon-chair"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="services-content">
-                        <h3>
-                            <a href="hair_transplant_details.php"><?php echo $lang['hairTransplant'] ?></a>
-                        </h3>
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
-                    </div>
-                </div>
-            </div>
-            <?php for ($i = 0; $i < 3; $i++) { ?>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="services-image">
-                            <a href="<?= $plastic_JSON[$i]->treatment_link ?>"><img src="<?= $plastic_JSON[$i]->treatment_first_photo ?>" alt="image"></a>
-
-                            <div class="icon">
-                                <a href="<?= $plastic_JSON[$i]->treatment_link ?>"><i class="flaticon-chair"></i></a>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <!--Slide Item-->
+                <div class="swiper-slide slide-item">
+                    <div class="image-layer" style="background-image: url(images/slider1.jpg);"></div>
+                    <div class="auto-container">
+                        <div class="content-box">
+                            <div class="content">
+                                <div class="clearfix">
+                                    <div class="inner">
+                                        <div class="subtitle"><span>LANSMAN ÖZEL</span></div>
+                                        <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                                        <h1><span>Hikayeleri baştan yazan <br> formüller için..</span></h1>
+                                        <!-- <div class="text">Come with family & feel the joy of mouthwatering food</div> -->
+                                        <div class="links-box clearfix">
+                                            <div class="link">
+                                                <a href="hakkimizda.php" class="theme-btn btn-style-two clearfix">
+                                                    <span class="btn-wrap">
+                                                        <span class="text-one">Hakkımızda</span>
+                                                        <span class="text-two">Hakkımızda</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                        <div class="services-content">
-                            <h3>
-                                <a href="<?= $plastic_JSON[$i]->treatment_link ?>"><?= $plastic_JSON[$i]->$langTreatmentName ?></a>
-                            </h3>
-                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            <?php  } ?>
+                <!--Slide Item-->
+                <!-- <div class="swiper-slide slide-item">
+                    <div class="image-layer" style="background-image: url(images/slider1.jpg);"></div>
+                    <div class="auto-container">
+                        <div class="content-box">
+                            <div class="content">
+                                <div class="clearfix">
+                                    <div class="inner">
+                                        <div class="subtitle"><span>Tradational & Hygine</span></div>
+                                        <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                                        <h1><span>For the love of <br>delicious food</span></h1>
+                                        <div class="text">Come with family & feel the joy of mouthwatering food</div>
+                                        <div class="links-box clearfix">
+                                            <div class="link">
+                                                <a href="menu-list-3.html" class="theme-btn btn-style-two clearfix">
+                                                    <span class="btn-wrap">
+                                                        <span class="text-one">Hepsini Gör</span>
+                                                        <span class="text-two">Hepsini Gör</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="swiper-button-prev"><span class="fal fa-angle-left"></span></div>
+            <div class="swiper-button-next"><span class="fal fa-angle-right"></span></div>
+        </div>
+    </div>
 
+    <div class="book-btn"><a href="reservation-opentable.html" class="theme-btn"><span class="icon"><img src="images/resource/book-icon-1.png" alt="" title=""></span><span class="txt">book a table</span></a></div>
+</section>
+<!--End Banner Section -->
 
+<!--We Offer Section-->
+<section class="we-offer-section">
+    <div class="left-bot-bg"><img src="images/background/bg-1.png" alt="" title=""></div>
+    <div class="right-top-bg"><img src="images/background/bg-2.png" alt="" title=""></div>
+    <div class="auto-container">
+        <div class="title-box centered">
+            <div class="subtitle"><span>Flavors for royalty</span></div>
+            <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+            <h2>We Offer Top Notch</h2>
+            <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever.</div>
+        </div>
+        <div class="row justify-content-center clearfix">
+            <!--Block-->
+            <div class="offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                    <div class="image"><a href="product_list.php?category=meymiks-konsantre-icecekler"><img src="images/captan.jpg" alt=""></a></div>
+                    <h3><a href="product_list.php?category=meymiks-konsantre-icecekler">Konsantre İçecek (Meyveli Şuruplar)</a></h3>
+                    <div class="more-link"><a href="product_list.php?category=meymiks-konsantre-icecekler">Hepsini Gör</a></div>
+                </div>
+            </div>
 
+            <!--Block-->
+            <div class="offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                    <div class="image"><a href="product_list.php?category=captan-custo-alkolsuz-sampanya"><img src="images/captan.jpg" alt=""></a></div>
+                    <h3><a href="product_list.php?category=captan-custo-alkolsuz-sampanya">Alkolsüz Şampanya</a></h3>
+                    <div class="more-link"><a href="product_list.php?category=captan-custo-alkolsuz-sampanya">Hepsini Gör</a></div>
+                </div>
+            </div>
+
+            <!--Block-->
+            <div class="offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
+                    <div class="image"><a href="product_list.php?category=captan-custo-kokteyl-suruplari"><img src="images/captan.jpg" alt=""></a></div>
+                    <h3><a href="product_list.php?category=captan-custo-kokteyl-suruplari">Captain Custo Kokteyl Şurupları</a></h3>
+                    <div class="more-link"><a href="product_list.php?category=captan-custo-kokteyl-suruplari">Hepsini Gör</a></div>
+                </div>
+            </div>
 
         </div>
     </div>
 </section>
-<!-- End Dental Tourism Services Area -->
 
-<!-- Start Dental Tourism Choose Area -->
-<div class="dental-tourism-choose-area ptb-100">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 col-md-12">
-                <div class="dental-tourism-choose-content">
-                    <span># <?php echo $lang['whyChooseUs'] ?></span>
-                    <h3><?php echo $lang['weNeverLeaveHealth'] ?></h3>
-                    <p><i class='bx bxs-badge-check' style="color:black"></i> <?php echo $lang['list1weNeverLeaveHealth'] ?>
-                        ‍<br><br>
-                        <i class='bx bxs-badge-check' style="color:black"></i><?php echo $lang['list2weNeverLeaveHealth'] ?> <br><br>
-                        <i class='bx bxs-badge-check' style="color:black"></i><?php echo $lang['list3weNeverLeaveHealth'] ?>
-                    </p>
+<!--Story Section-->
+<section class="story-section">
+    <div class="left-bg"><img src="images/background/bg-3.png" alt="" title=""></div>
+    <div class="auto-container">
+        <div class="row clearfix">
+            <!--Col-->
+            <div class="text-col col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
+                    <div class="title-box centered">
+                        <div class="subtitle"><span>Our story</span></div>
+                        <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                        <h2>Every Flavor Tells a Story</h2>
+                        <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into.</div>
+                    </div>
+                    <div class="booking-info">
+                        <div class="bk-title">Book Through Call</div>
+                        <div class="bk-no"><a href="tel:+80-400-123456">+80 (400) 123 4567</a></div>
 
+                        <div class="link-box">
+                            <a href="about.html" class="theme-btn btn-style-two clearfix">
+                                <span class="btn-wrap">
+                                    <span class="text-one">Read More</span>
+                                    <span class="text-two">Read More</span>
+                                </span>
+                            </a>
+                        </div>
 
-
-
+                    </div>
+                </div>
+            </div>
+            <!--Col-->
+            <div class="image-col col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
+                    <div class="round-stamp"><img src="images/resource/badge-1.png" alt=""></div>
+                    <div class="images parallax-scene-1">
+                        <div class="image" data-depth="0.15"><img src="images/resource/image-1.jpg" alt=""></div>
+                        <div class="image" data-depth="0.30"><img src="images/resource/image-2.jpg" alt=""></div>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-12">
-                <div class="dental-tourism-choose-image">
-                    <img src="assets/images/2.png" alt="image">
-
-                    <!-- <a href="https://www.youtube.com/watch?v=Buhosl-jJGA" class="video-btn popup-youtube">
-                        <i class='bx bx-play-circle'></i>
-                    </a> -->
-                </div>
-            </div>
         </div>
     </div>
-</div>
-<!-- End Dental Tourism Choose Area -->
+</section>
 
-<!-- Start Dental Tourism Appointment Area -->
-<div class="dental-tourism-appointment-area ptb-100">
-    <div class="container">
-        <div class="dental-tourism-appointment-form">
-            <h4><i class="flaticon-calendar"></i> <?php echo $lang['makeaAnAppointment'] ?></h4>
-
-            <form>
-                <div class="row">
-
-
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="<?php echo $lang['name'] ?>">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="<?php echo $lang['eMail'] ?>">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-group">
-                            <input type="number" class="form-control" placeholder="<?php echo $lang['number'] ?>">
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="<?php echo $lang['countryCode'] ?>">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-12 col-md-12">
-                        <div class="form-group">
-                            <textarea name="message" class="form-control" placeholder="<?php echo $lang['message'] ?>"></textarea>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-12 col-md-12">
-                        <button type="submit" class="default-btn"><?php echo $lang['bookAppointment'] ?></button>
+<!--Special Dish Section-->
+<!-- <section class="special-dish">
+        <div class="bottom-image"><img src="images/resource/image-3.png" alt="" title=""></div>
+        <div class="outer-container">
+            <div class="row clearfix">
+           
+                <div class="image-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <div class="image-layer" style="background-image: url(images/background/image-1.jpg);"></div>
+                        <div class="image"><img src="images/background/image-1.jpg" alt=""></div>
                     </div>
                 </div>
-            </form>
-        </div>
-    </div>
-</div>
-<!-- End Dental Tourism Appointment Area -->
+               
+                <div class="content-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="right-bg"><img src="images/background/bg-4.png" alt="" title=""></div>
+                    <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <div class="title-box">
+                            <span class="badge-icon"><img src="images/resource/badge-2.png" alt="" title=""></span>
+                            <div class="subtitle"><span>Special dish</span></div>
+                            <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                            <h2>Lobster Tortellini</h2>
+                            <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type.</div>
+                        </div>
+                        <div class="price"><span class="old">$40.00</span> <span class="new">$20.00</span></div>
+                        <div class="link-box">
+                            <a href="menu-list-1.html" class="theme-btn btn-style-two clearfix">
+                                <span class="btn-wrap">
+                                    <span class="text-one">view all menu</span>
+                                    <span class="text-two">view all menu</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-<div class="skin-care-features-area pt-100 pb-75">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6">
-                <div class="skin-care-features-card">
-                    <div class="features-title">
-                        <div class="icon-image">
-                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
-                        </div>
-                        <h3>
-                            <a href="#0"><?php echo $lang['freeMedicalConsultation'] ?></a>
-                        </h3>
-                    </div>
-                    <p><?php echo $lang['freeMedicalConsultationDescription'] ?></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="skin-care-features-card">
-                    <div class="features-title">
-                        <div class="icon-image">
-                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
-                        </div>
-                        <h3>
-                            <a href="#0"><?php echo $lang['boardCertifiedSurgeons'] ?></a>
-                        </h3>
-                    </div>
-                    <p><?php echo $lang['boardCertifiedSurgeonsDescription'] ?></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="skin-care-features-card">
-                    <div class="features-title">
-                        <div class="icon-image">
-                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
-                        </div>
-                        <h3>
-                            <a href="#0"><?php echo $lang['bestHospitals'] ?></a>
-                        </h3>
-                    </div>
-                    <p><?php echo $lang['bestHospitalsDescription'] ?></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="skin-care-features-card">
-                    <div class="features-title">
-                        <div class="icon-image">
-                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
-                        </div>
-                        <h3>
-                            <a href="#0"><?php echo $lang['excellentAftercare'] ?></a>
-                        </h3>
-                    </div>
-                    <p><?php echo $lang['excellentAftercareDescription'] ?></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="skin-care-features-card">
-                    <div class="features-title">
-                        <div class="icon-image">
-                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
-                        </div>
-                        <h3>
-                            <a href="#0"><?php echo $lang['ongoingFollowUp'] ?></a>
-                        </h3>
-                    </div>
-                    <p><?php echo $lang['ongoingFollowUpDescription'] ?></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="skin-care-features-card">
-                    <div class="features-title">
-                        <div class="icon-image">
-                            <a href="#0"><img src="assets/images/skin-care/features/medical-doctor.png" alt="image"></a>
-                        </div>
-                        <h3>
-                            <a href="#0"><?php echo $lang['recoveryHotels'] ?></a>
-                        </h3>
-                    </div>
-                    <p><?php echo $lang['recoveryHotelsDescription'] ?></p>
-                </div>
             </div>
         </div>
+    </section> -->
+
+<!--Menu Section-->
+
+<!--Special Offer Section-->
+<section class="special-offer">
+    <div class="outer-container">
+        <div class="auto-container">
+            <div class="title-box centered">
+                <div class="subtitle"><span>special offer</span></div>
+                <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                <h2>Best Specialties</h2>
+            </div>
+            <div class="dish-gallery-slider owl-theme owl-carousel">
+                <!--Slide Item-->
+                <?php foreach ($categories_JSON as $category) { ?>
+                    <div class="offer-block-two">
+                        <div class="inner-box">
+                            <div class="image"><a href="product_list.php?category=<?= $category->category_url ?>"><img src="<?= $category->category_image ?>" alt=""></a></div>
+                            <h4><a href="product_list.php?category=<?= $category->category_url ?>"><?= $category->category_name ?></a></h4>
+                            <!-- <div class="text desc">Avocados with crab meat, red onion, crab salad red bell pepper...</div>
+                            <div class="price">$39.00</div> -->
+                        </div>
+                    </div>
+                <?php } ?>
+
+
+                <!--Slide Item-->
+
+
+            </div>
+
+            <!-- <div class="lower-link-box text-center">
+                <a href="menu-list-1.html" class="theme-btn btn-style-two clearfix">
+                    <span class="btn-wrap">
+                        <span class="text-one">view all menu</span>
+                        <span class="text-two">view all menu</span>
+                    </span>
+                </a>
+            </div> -->
+
+        </div>
     </div>
-</div>
+</section>
 
-<!-- Start Dental Tourism Tourists Area -->
-<div class="dental-tourism-tourists-area pb-75">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 col-md-12">
-                <div class="dental-tourism-tourists-content">
-                    <h3><?php echo $lang['whatWeOfer'] ?></h3>
-                    <!-- <p>Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi pretium ut lacinia in elementum enim.</p> -->
-
-                    <ul class="list">
-                        <li><i class='bx bxs-check-shield'></i> <?php echo $lang['whatWeOferDescription'] ?> </li>
-
-                    </ul>
+<!--Testimonials Section-->
+<section class="testimonials-section">
+    <div class="image-layer" style="background-image: url(images/background/image-2.jpg);"></div>
+    <div class="auto-container">
+        <div class="carousel-box">
+            <div class="testi-top owl-theme owl-carousel">
+                <div class="slide-item">
+                    <div class="slide-content">
+                        <div class="quotes">”</div>
+                        <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-content">
+                        <div class="quotes">”</div>
+                        <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-content">
+                        <div class="quotes">”</div>
+                        <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-content">
+                        <div class="quotes">”</div>
+                        <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-content">
+                        <div class="quotes">”</div>
+                        <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-content">
+                        <div class="quotes">”</div>
+                        <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12">
-                <div class="dental-tourism-tourists-imagez" style="position:inherit">
-                    <div class="row">
-
-                        <div class="tourists-image">
-                            <img src="assets/images/belge.jpg" alt="image">
-
-
-                        </div>
-
-
+            <div class="separator"><span></span><span></span><span></span></div>
+            <div class="thumbs-carousel-box">
+                <div class="testi-thumbs owl-theme owl-carousel">
+                    <div class="slide-item">
+                        <div class="image"><img src="images/resource/author-thumb-1.jpg" alt=""></div>
+                        <div class="auth-title">Sam Jhonson</div>
                     </div>
-                </div>
-                <div class="row" style="margin-top: 20px;">
-                    <div class="col-md-6">
-                        <img src="assets/images/saglik-bakanligi.png" style="width: 130px;" alt="">
+                    <div class="slide-item">
+                        <div class="image"><img src="images/resource/author-thumb-2.jpg" alt=""></div>
+                        <div class="auth-title">Ian Botham</div>
                     </div>
-                    <div class="col-md-6">
-                        <img src="assets/images/tursab-logo.png" style="width: 250px;" alt="">
+                    <div class="slide-item">
+                        <div class="image"><img src="images/resource/author-thumb-3.jpg" alt=""></div>
+                        <div class="auth-title">Dan Bitson</div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="image"><img src="images/resource/author-thumb-1.jpg" alt=""></div>
+                        <div class="auth-title">Sam Jhonson</div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="image"><img src="images/resource/author-thumb-2.jpg" alt=""></div>
+                        <div class="auth-title">Ian Botham</div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="image"><img src="images/resource/author-thumb-3.jpg" alt=""></div>
+                        <div class="auth-title">Dan Bitson</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- End Dental Tourism Tourists Area -->
+</section>
 
-<!-- Start Dental Tourism Review Area -->
+<!--Reservation Section-->
+<section class="reserve-section">
+    <div class="auto-container">
+        <div class="outer-box">
+            <div class="row clearfix">
+                <div class="reserv-col col-lg-8 col-md-12 col-sm-12">
+                    <div class="inner">
+                        <div class="title">
+                            <h2>Online Reservation</h2>
+                            <div class="request-info">Booking request <a href="#">+88-123-123456</a> or fill out the order form</div>
+                        </div>
+                        <div class="default-form reservation-form">
+                            <form method="post" action="index.html">
+                                <div class="row clearfix">
+                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                        <div class="field-inner">
+                                            <input type="text" name="fieldname" value="" placeholder="Your Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                        <div class="field-inner">
+                                            <input type="text" name="fieldname" value="" placeholder="Phone Number" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-12">
+                                        <div class="field-inner">
+                                            <span class="alt-icon far fa-user"></span>
+                                            <select class="l-icon">
+                                                <option>1 Person</option>
+                                                <option>2 Person</option>
+                                                <option>3 Person</option>
+                                                <option>4 Person</option>
+                                                <option>5 Person</option>
+                                                <option>6 Person</option>
+                                                <option>7 Person</option>
+                                            </select>
+                                            <span class="arrow-icon far fa-angle-down"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-12">
+                                        <div class="field-inner">
+                                            <span class="alt-icon far fa-calendar"></span>
+                                            <input class="l-icon datepicker" type="text" name="fieldname" value="" placeholder="DD-MM-YYYY" required readonly>
+                                            <span class="arrow-icon far fa-angle-down"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-4 col-md-12 col-sm-12">
+                                        <div class="field-inner">
+                                            <span class="alt-icon far fa-clock"></span>
+                                            <select class="l-icon">
+                                                <option>08 : 00 am</option>
+                                                <option>09 : 00 am</option>
+                                                <option>10 : 00 am</option>
+                                                <option>11 : 00 am</option>
+                                                <option>12 : 00 pm</option>
+                                                <option>01 : 00 pm</option>
+                                                <option>02 : 00 pm</option>
+                                                <option>03 : 00 pm</option>
+                                                <option>04 : 00 pm</option>
+                                                <option>05 : 00 pm</option>
+                                                <option>06 : 00 pm</option>
+                                                <option>07 : 00 pm</option>
+                                                <option>08 : 00 pm</option>
+                                                <option>09 : 00 pm</option>
+                                                <option>10 : 00 pm</option>
+                                            </select>
+                                            <span class="arrow-icon far fa-angle-down"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                        <div class="field-inner">
+                                            <textarea name="fieldname" placeholder="Message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                        <div class="field-inner">
 
-<!-- End Dental Tourism Review Area -->
+                                            <button type="submit" class="theme-btn btn-style-one clearfix">
+                                                <span class="btn-wrap">
+                                                    <span class="text-one">book a table</span>
+                                                    <span class="text-two">book a table</span>
+                                                </span>
+                                            </button>
 
-<!-- Start Dental Tourism Blog Area -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-col col-lg-4 col-md-12 col-sm-12">
+                    <div class="inner">
+                        <div class="title">
+                            <h2>Contact Us</h2>
+                        </div>
+                        <div class="data">
+                            <div class="booking-info">
+                                <div class="bk-title">Booking request</div>
+                                <div class="bk-no"><a href="tel:+88-123-123456">+88-123-123456</a></div>
+                            </div>
+                            <div class="separator"><span></span></div>
+                            <ul class="info">
+                                <li><strong>Location</strong><br>Restaurant St, Delicious City, London 9578, UK</li>
+                                <li><strong>Lunch Time</strong><br>Monday to Sunday <br>11.00 am - 2.30pm</li>
+                                <li><strong>Dinner Time</strong><br>Monday to Sunday <br>05.00 pm - 10.00pm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </div>
+</section>
+
+<!--Why Us Section-->
+<!-- <section class="why-us">
+        <div class="left-bg"><img src="images/background/bg-8.png" alt="" title=""></div>
+        <div class="right-bg"><img src="images/background/bg-7.png" alt="" title=""></div>
+        <div class="auto-container">
+            <div class="title-box centered">
+                <div class="subtitle"><span>why choose us</span></div>
+                <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                <h2>Our Strength</h2>
+            </div>
+            <div class="row clearfix">
+                <div class="why-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <div class="icon-box"><img src="images/resource/why-icon-1.png" alt=""></div>
+                        <h4>Hygienic Food</h4>
+                        <div class="text">Lorem Ipsum is simply dummy printing and typesetting.</div>
+                    </div>
+                </div>
+
+                <div class="why-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="icon-box"><img src="images/resource/why-icon-2.png" alt=""></div>
+                        <h4>Fresh Environment</h4>
+                        <div class="text">Lorem Ipsum is simply dummy printing and typesetting.</div>
+                    </div>
+                </div>
+
+                <div class="why-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
+                        <div class="icon-box"><img src="images/resource/why-icon-3.png" alt=""></div>
+                        <h4>Skilled Chefs</h4>
+                        <div class="text">Lorem Ipsum is simply dummy printing and typesetting.</div>
+                    </div>
+                </div>
+
+                <div class="why-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="900ms">
+                        <div class="icon-box"><img src="images/resource/why-icon-4.png" alt=""></div>
+                        <h4>Event & Party</h4>
+                        <div class="text">Lorem Ipsum is simply dummy printing and typesetting.</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+<!--Featured Links Section-->
+<!-- <section class="featured-links">
+        <div class="outer-container">
+            <div class="row clearfix">
+                <div class="link-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <div class="text-block">
+                            <div class="bl-inner">
+                                <div class="content">
+                                    <div class="subtitle">best menu</div>
+                                    <h3>Special Dishes</h3>
+                                    <div class="text">Lorem Ipsum is simply dummy printing.</div>
+                                    <div class="link"><a href="menu-list-1.html" class="theme-btn"><span>view menu</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <div class="image-layer" style="background-image: url(images/resource/featured-1.jpg);"></div>
+                            <div class="image"><img src="images/resource/featured-1.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="link-block alternate col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="image-box">
+                            <div class="image-layer" style="background-image: url(images/resource/featured-2.jpg);"></div>
+                            <div class="image"><img src="images/resource/featured-2.jpg" alt=""></div>
+                        </div>
+                        <div class="text-block">
+                            <div class="bl-inner">
+                                <div class="content">
+                                    <div class="subtitle">Latest</div>
+                                    <h3>Upcoming Events</h3>
+                                    <div class="text">Simply dummy printing and setting.</div>
+                                    <div class="link"><a href="menu-list-2.html" class="theme-btn"><span>join event</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="link-block col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="inner wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
+                        <div class="text-block">
+                            <div class="bl-inner">
+                                <div class="content">
+                                    <div class="subtitle">selected</div>
+                                    <h3>Chef Choice</h3>
+                                    <div class="text">Dummy printing lorem Ipsum simply.</div>
+                                    <div class="link"><a href="menu-list-3.html" class="theme-btn"><span>view menu</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <div class="image-layer" style="background-image: url(images/resource/featured-3.jpg);"></div>
+                            <div class="image"><img src="images/resource/featured-3.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+<!--Team Section-->
+<!-- <section class="team-section">
+        <div class="left-bg"><img src="images/background/bg-21.png" alt="" title=""></div>
+        <div class="right-bg"><img src="images/background/bg-9.png" alt="" title=""></div>
+        <div class="auto-container">
+            <div class="title-box centered">
+                <div class="subtitle"><span>experienced team</span></div>
+                <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                <h2>Meet Our Chef</h2>
+            </div>
+            <div class="row justify-content-center clearfix">
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <div class="image">
+                            <img src="images/resource/team-1.jpg" alt="">
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <ul class="social-box">
+                                        <li><a href="https://www.facebook.com/" class="fab fa-facebook-f"></a></li>
+                                        <li><a href="https://www.twitter.com/" class="fab fa-twitter"></a></li>
+                                        <li><a href="https://dribbble.com/" class="fab fa-dribbble"></a></li>
+                                        <li><a href="https://www.linkedin.com/" class="fab fa-linkedin"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <h3><a href="menu-list.html">Willium Joe</a></h3>
+                        <div class="designation">Master chef</div>
+                        <div class="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</div>
+                    </div>
+                </div>
+
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="image">
+                            <img src="images/resource/team-2.jpg" alt="">
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <ul class="social-box">
+                                        <li><a href="https://www.facebook.com/" class="fab fa-facebook-f"></a></li>
+                                        <li><a href="https://www.twitter.com/" class="fab fa-twitter"></a></li>
+                                        <li><a href="https://dribbble.com/" class="fab fa-dribbble"></a></li>
+                                        <li><a href="https://www.linkedin.com/" class="fab fa-linkedin"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <h3><a href="menu-list.html">Steave Den</a></h3>
+                        <div class="designation">Master chef</div>
+                        <div class="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</div>
+                    </div>
+                </div>
+
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
+                        <div class="image">
+                            <img src="images/resource/team-3.jpg" alt="">
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <ul class="social-box">
+                                        <li><a href="https://www.facebook.com/" class="fab fa-facebook-f"></a></li>
+                                        <li><a href="https://www.twitter.com/" class="fab fa-twitter"></a></li>
+                                        <li><a href="https://dribbble.com/" class="fab fa-dribbble"></a></li>
+                                        <li><a href="https://www.linkedin.com/" class="fab fa-linkedin"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <h3><a href="menu-list.html">Lily Sopy</a></h3>
+                        <div class="designation">Master chef</div>
+                        <div class="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+<!--Intro Section-->
+<!-- <section class="intro-section">
+        <div class="image-layer" style="background-image: url(images/background/image-3.jpg);"></div>
+        <div class="auto-container">
+            <div class="content-box">
+                <div class="title-box centered">
+                    <div class="subtitle"><span>amazing experience</span></div>
+                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                    <h2>Watch Our Video</h2>
+                </div>
+                <div class="play-btn"><a href="https://www.youtube.com/watch?v=ZETY_l3GVQg&autoplay=1" class="lightbox-image theme-btn"><span class="icon fal fa-play"><i class="ripple"></i></span></a></div>
+                <div class="separator"><span></span><span></span><span></span></div>
+                <h3>A modern restaurant with a menu that will make your mouth water.</h3>
+                <div class="auth-title">Willium Joe - Master chef</div>
+            </div>
+
+            <div class="fact-counter">
+                <div class="row clearfix">
+                    <div class="fact-block col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner clearfix">
+                            <div class="fact-count"><div class="count-box"><span class="count-text" data-stop="150" data-speed="2000">0</span><i>+</i></div></div>
+                            <div class="fact-title">daily <br>order</div>
+                        </div>
+                    </div>
+                    <div class="fact-block col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner clearfix">
+                            <div class="fact-count"><div class="count-box"><span class="count-text" data-stop="82" data-speed="1500">0</span><i>+</i></div></div>
+                            <div class="fact-title">Special <br>Dishes</div>
+                        </div>
+                    </div>
+                    <div class="fact-block col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner clearfix">
+                            <div class="fact-count"><div class="count-box"><span class="count-text" data-stop="35" data-speed="1000">0</span><i>+</i></div></div>
+                            <div class="fact-title">expert <br>chef</div>
+                        </div>
+                    </div>
+                    <div class="fact-block col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner clearfix">
+                            <div class="fact-count"><div class="count-box"><span class="count-text" data-stop="10" data-speed="1000">0</span><i>+</i></div></div>
+                            <div class="fact-title">awards <br>won</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+<!--Recnt Updates Section-->
+<!-- <section class="news-section">
+        <div class="auto-container">
+            <div class="title-box centered">
+                <div class="subtitle"><span>recent updates</span></div>
+                <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                <h2>Upcoming Event</h2>
+            </div>
+            <div class="row justify-content-center clearfix">
+                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <div class="image-box">
+                            <div class="date"><span>15/09/2022</span></div>
+                            <div class="image"><a href="#"><img src="images/resource/news-2.jpg" alt=""></a></div>
+                            <div class="over-content">
+                                <div class="cat">Food, flavour</div>
+                                <h4><a href="menu-list.html">Flavour so good you’ll try to eat with your eyes.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="image-box">
+                            <div class="date"><span>08/09/2022</span></div>
+                            <div class="image"><a href="#"><img src="images/resource/news-1.jpg" alt=""></a></div>
+                            <div class="over-content">
+                                <div class="cat">healthy food</div>
+                                <h4><a href="menu-list.html">Flavour so good you’ll try to eat with your eyes.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
+                        <div class="image-box">
+                            <div class="date"><span>03/09/2022</span></div>
+                            <div class="image"><a href="#"><img src="images/resource/news-3.jpg" alt=""></a></div>
+                            <div class="over-content">
+                                <div class="cat">recipie</div>
+                                <h4><a href="menu-list.html">Flavour so good you’ll try to eat with your eyes.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="lower-link-box text-center">
+                <a href="#" class="theme-btn btn-style-two clearfix">
+                    <span class="btn-wrap">
+                        <span class="text-one">view our blog</span>
+                        <span class="text-two">view our blog</span>
+                    </span>
+                </a>
+            </div>
+            
+        </div>
+    </section> -->
 <?php include 'php/footer.php' ?>
+</body>
+
+</html>

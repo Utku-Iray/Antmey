@@ -142,7 +142,7 @@ $categories_JSON = json_decode($JSON);
 
                             <div class="links-box clearfix">
                                 <div class="link link-btn">
-                                    <a href="#0" class="theme-btn btn-style-one clearfix">
+                                    <a href="form.php" class="theme-btn btn-style-one clearfix">
                                         <span class="btn-wrap">
                                             <span class="text-one">Form Doldurun</span>
                                             <span class="text-two">Form Doldurun</span>

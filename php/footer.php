@@ -1,6 +1,6 @@
 <!--Main Footer-->
 <footer class="main-footer">
-        <div class="image-layer" style="background-image: url(images/background/image-4.jpg);"></div>
+        <div class="image-layer"></div>
         <div class="upper-section">
             <div class="auto-container">
                 <div class="row clearfix">

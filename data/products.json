@@ -2,36 +2,41 @@
     {
         "product_name": "Dubai",
         "product_images": "images/product/captainCustoAlkolsuzSampanya/dubai.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Üzüm Aromalı",
         "category_url": "captan-custo-alkolsuz-sampanya"
     },
     {
         "product_name": "Istanbul",
         "product_images": "images/product/captainCustoAlkolsuzSampanya/istanbul.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Çilek Aromalı",
         "category_url": "captan-custo-alkolsuz-sampanya"
     },
     {
         "product_name": "Las Palmas",
         "product_images": "images/product/captainCustoAlkolsuzSampanya/Las-Palmas.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Turunç Aromalı",
         "category_url": "captan-custo-alkolsuz-sampanya"
     },
     {
         "product_name": "Los Angeles",
         "product_images": "images/product/captainCustoAlkolsuzSampanya/Los-Angeles.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Böğürtlen Aromalı",
         "category_url": "captan-custo-alkolsuz-sampanya"
     },
     {
         "product_name": "Rio De Janerio",
         "product_images": "images/product/captainCustoAlkolsuzSampanya/Rio-De-Janeiro.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Tutti Frutti Aromalı",
         "category_url": "captan-custo-alkolsuz-sampanya"
     },
 
 
-
+    {
+        "product_name": "Antmey Kokteyl Şurubu Kolisi",
+        "product_images": "images/product/bojeMoyKokteylSuruplari/antmey-kokyteyl-surubu-kolisi.png",
+        "product_description": "Lorem İpsun Dolor Amet",
+        "category_url": "boje-moy-kokteyl-suruplari"
+    } ,
     {
         "product_name": "Acı Badem",
         "product_images": "images/product/bojeMoyKokteylSuruplari/aci-badem.png",
@@ -39,12 +44,7 @@
         "category_url": "boje-moy-kokteyl-suruplari"
     }
     ,
-    {
-        "product_name": "Antmey Kokteyl Şurubu Kolisi",
-        "product_images": "images/product/bojeMoyKokteylSuruplari/antmey-kokyteyl-surubu-kolisi.png",
-        "product_description": "Lorem İpsun Dolor Amet",
-        "category_url": "boje-moy-kokteyl-suruplari"
-    } ,
+    
     {
         "product_name": "Böğürtlen",
         "product_images": "images/product/bojeMoyKokteylSuruplari/bogurtlen.png",

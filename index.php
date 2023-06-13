@@ -17,7 +17,7 @@
                                     <div class="inner">
                                         <div class="subtitle"><span>LANSMAN ÖZEL</span></div>
                                         <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                                        <h1><span>Hikayeleri baştan yazan <br> formüller için..</span></h1>
+                                        <h1><span>Hikayenizi Baştan Yazacak Formüller </span></h1>
                                         <!-- <div class="text">Come with family & feel the joy of mouthwatering food</div> -->
                                         <div class="links-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                             <div class="link">
@@ -37,34 +37,7 @@
                     </div>
                 </div>
                 <!--Slide Item-->
-                <div class="swiper-slide slide-item">
-                    <div class="image-layer" style="background-image: url(images/slider1.jpg);"></div>
-                    <div class="auto-container">
-                        <div class="content-box">
-                            <div class="content">
-                                <div class="clearfix">
-                                    <div class="inner">
-                                        <div class="subtitle"><span>LANSMAN ÖZEL</span></div>
-                                        <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                                        <h1><span>Hikayeleri baştan yazan <br> formüller için..</span></h1>
-                                        <!-- <div class="text">Come with family & feel the joy of mouthwatering food</div> -->
-                                        <div class="links-box clearfix">
-                                            <div class="link">
-                                                <a href="hakkimizda.php" class="theme-btn btn-style-two clearfix">
-                                                    <span class="btn-wrap">
-                                                        <span class="text-one">Hakkımızda</span>
-                                                        <span class="text-two">Hakkımızda</span>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <!--Slide Item-->
                 <!-- <div class="swiper-slide slide-item">
                     <div class="image-layer" style="background-image: url(images/slider1.jpg);"></div>
@@ -366,62 +339,26 @@
                                 <div class="row clearfix">
                                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                         <div class="field-inner">
-                                            <input type="text" name="fieldname" value="" placeholder="Your Name" required>
+                                            <input type="text" name="fieldname" value="" placeholder="Adınız" required>
                                         </div>
                                     </div>
                                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                         <div class="field-inner">
-                                            <input type="text" name="fieldname" value="" placeholder="Phone Number" required>
+                                            <input type="text" name="fieldname" value="" placeholder="Telefon" required>
                                         </div>
                                     </div>
-                                    <div class="form-group col-lg-4 col-md-6 col-sm-12">
+                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                         <div class="field-inner">
-                                            <span class="alt-icon far fa-user"></span>
-                                            <select class="l-icon">
-                                                <option>1 Person</option>
-                                                <option>2 Person</option>
-                                                <option>3 Person</option>
-                                                <option>4 Person</option>
-                                                <option>5 Person</option>
-                                                <option>6 Person</option>
-                                                <option>7 Person</option>
-                                            </select>
-                                            <span class="arrow-icon far fa-angle-down"></span>
+                                            <input type="text" name="fieldname" value="" placeholder="E-Mail" required>
                                         </div>
-                                    </div>
-                                    <div class="form-group col-lg-4 col-md-6 col-sm-12">
+                                    </div><div class="form-group col-lg-6 col-md-6 col-sm-12">
                                         <div class="field-inner">
-                                            <span class="alt-icon far fa-calendar"></span>
-                                            <input class="l-icon datepicker" type="text" name="fieldname" value="" placeholder="DD-MM-YYYY" required readonly>
-                                            <span class="arrow-icon far fa-angle-down"></span>
-                                        </div>
-                                    </div>
-                                    <div class="form-group col-lg-4 col-md-12 col-sm-12">
-                                        <div class="field-inner">
-                                            <span class="alt-icon far fa-clock"></span>
-                                            <select class="l-icon">
-                                                <option>08 : 00 am</option>
-                                                <option>09 : 00 am</option>
-                                                <option>10 : 00 am</option>
-                                                <option>11 : 00 am</option>
-                                                <option>12 : 00 pm</option>
-                                                <option>01 : 00 pm</option>
-                                                <option>02 : 00 pm</option>
-                                                <option>03 : 00 pm</option>
-                                                <option>04 : 00 pm</option>
-                                                <option>05 : 00 pm</option>
-                                                <option>06 : 00 pm</option>
-                                                <option>07 : 00 pm</option>
-                                                <option>08 : 00 pm</option>
-                                                <option>09 : 00 pm</option>
-                                                <option>10 : 00 pm</option>
-                                            </select>
-                                            <span class="arrow-icon far fa-angle-down"></span>
+                                            <input type="text" name="fieldname" value="" placeholder="Şirket" required>
                                         </div>
                                     </div>
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                         <div class="field-inner">
-                                            <textarea name="fieldname" placeholder="Message" required></textarea>
+                                            <textarea name="fieldname" placeholder="Mesaj" required></textarea>
                                         </div>
                                     </div>
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">

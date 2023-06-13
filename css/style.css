@@ -1119,7 +1119,8 @@ body.visible-sidebar {
 
 .info-bar .inner-box {
     position: relative;
-    background: var(--color-two) url(../images/background/pattern-7.png) center top repeat;
+    /* background: var(--color-two) url(../images/background/pattern-7.png) center top repeat; */
+    background: white  center top repeat;
     padding-top: var(--padding-top-100);
     padding-bottom: var(--padding-bottom-50);
     padding-left: var(--padding-left-30);
@@ -1155,7 +1156,7 @@ body.visible-sidebar {
 
 .info-bar .inner-box .logo-box img {
     position: relative;
-    max-height: 50px;
+    max-height: 90px;
 }
 
 .info-bar .inner-box .image-box {
@@ -2723,7 +2724,7 @@ body.visible-sidebar {
 .testimonials-section .testi-top .quote-text {
     position: relative;
     line-height: 1.4em;
-    font-size: var(--font-50);
+    font-size: var(--font-40);
     font-family: var(--font-family-Forum);
 }
 
@@ -4036,7 +4037,8 @@ body.visible-sidebar {
     margin: 0 auto;
     padding-top: var(--padding-top-100);
     padding-bottom: var(--padding-bottom-90);
-    background: var(--color-five) url(../images/background/pattern-4.png) center top repeat;
+    /* background: var(--color-five) url(../images/background/pattern-4.png) center top repeat; */
+    background: var(--color-five)  center top repeat;
 }
 
 .main-footer .info-col .content {

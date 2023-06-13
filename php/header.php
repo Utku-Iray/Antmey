@@ -48,14 +48,14 @@ $categories_JSON = json_decode($JSON);
                     <div class="inner clearfix">
                         <div class="top-left clearfix">
                             <ul class="top-info clearfix">
-                                <li><i class="icon far fa-map-marker-alt"></i> Restaurant St, Delicious City, London 9578, UK</li>
-                                <li><i class="icon far fa-clock"></i> Daily : 8.00 am to 10.00 pm</li>
+                                <li><i class="icon far fa-map-marker-alt"></i> Aşağıoba Mh.Toptancılar Birliği Sk. No:107/C7 Döşemealtı / Antalya</li>
+                                <!-- <li><i class="icon far fa-clock"></i> Daily : 8.00 am to 10.00 pm</li> -->
                             </ul>
                         </div>
                         <div class="top-right clearfix">
                             <ul class="top-info clearfix">
-                                <li><a href="tel:+11234567890"><i class="icon far fa-phone"></i> +1 123 456 7890</a></li>
-                                <li><a href="mailto:booking@restaurant.com"><i class="icon far fa-envelope"></i> booking@restaurant.com</a></li>
+                                <li><a href="tel:+90 (242) 257 00 36"><i class="icon far fa-phone"></i> +90 (242) 257 00 36</a></li>
+                                <li><a href="mailto:info@antmey.com"><i class="icon far fa-envelope"></i> info@antmey.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -142,7 +142,7 @@ $categories_JSON = json_decode($JSON);
 
                             <div class="links-box clearfix">
                                 <div class="link link-btn">
-                                    <a href="reservation-opentable.html" class="theme-btn btn-style-one clearfix">
+                                    <a href="#0" class="theme-btn btn-style-one clearfix">
                                         <span class="btn-wrap">
                                             <span class="text-one">Form Doldurun</span>
                                             <span class="text-two">Form Doldurun</span>
@@ -225,9 +225,9 @@ $categories_JSON = json_decode($JSON);
 
                 <h2>Visit Us</h2>
                 <ul class="info">
-                    <li>Restaurant St, Delicious City, <br>London 9578, UK</li>
-                    <li>Open: 9.30 am - 2.30pm</li>
-                    <li><a href="mailto:booking@domainame.com">booking@domainame.com</a></li>
+                    <li>Aşağıoba Mh.Toptancılar Birliği Sk. No:107/C7 Döşemealtı / Antalya</li>
+                    <!-- <li>Open: 9.30 am - 2.30pm</li> -->
+                    <li><a href="mailto:info@antmey.com">info@antmey.com</a></li>
                 </ul>
                 <div class="separator"><span></span></div>
                 <div class="booking-info">
@@ -246,19 +246,18 @@ $categories_JSON = json_decode($JSON);
         <section class="info-bar">
             <div class="inner-box">
                 <div class="cross-icon"><span class="far fa-close"></span></div>
-                <div class="logo-box"><a href="index.php" title="Delici - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="" title="Delici - Restaurants HTML Template"></a></div>
-                <div class="image-box"><img src="images/resource/sidebar-image.jpg" alt="" title=""></div>
+                <div class="logo-box"><a href="index.php" title="Delici - Restaurants HTML Template"><img src="images/antmey-logo.png" alt="" title="Delici - Restaurants HTML Template"></a></div>
+                <!-- <div class="image-box"><img src="images/resource/sidebar-image.jpg" alt="" title=""></div> -->
 
-                <h2>Visit Us</h2>
+                <!-- <h2>İletişim</h2> -->
                 <ul class="info">
-                    <li>Restaurant St, Delicious City, <br>London 9578, UK</li>
-                    <li>Open: 9.30 am - 2.30pm</li>
-                    <li><a href="mailto:booking@domainame.com">booking@domainame.com</a></li>
+                    <li>Aşağıoba Mh.Toptancılar Birliği Sk. No:107/C7 Döşemealtı / Antalya</li>
+                    <!-- <li>Open: 9.30 am - 2.30pm</li> -->
+                    <li><a href="mailto:info@antmey.com">info@antmey.com</a></li>
                 </ul>
                 <div class="separator"><span></span></div>
                 <div class="booking-info">
-                    <div class="bk-title">Booking request</div>
-                    <div class="bk-no"><a href="tel:+88-123-123456">+88-123-123456</a></div>
+                    <div class="bk-no"><a href="tel:+90 (242) 257 00 36">Telefon : <br> +90 (242) 257 00 36</a></div>
                 </div>
             </div>
         </section>

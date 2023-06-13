@@ -91,11 +91,11 @@ if (isset($_GET["category"])) {
     <div class="auto-container">
         <div class="outer-box">
             <div class="row clearfix">
-                <div class="reserv-col col-lg-8 col-md-12 col-sm-12">
+                <div class="reserv-col col-lg-12 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="title">
-                            <h2>Online Reservation</h2>
-                            <div class="request-info">Booking request <a href="#">+88-123-123456</a> or fill out the order form</div>
+                            <h2>Bizimle İletişime Geçin!</h2>
+                            <!-- <div class="request-info">Booking request <a href="#">+88-123-123456</a> or fill out the order form</div> -->
                         </div>
                         <div class="default-form reservation-form">
                             <form method="post" action="index.html">
@@ -175,7 +175,7 @@ if (isset($_GET["category"])) {
                         </div>
                     </div>
                 </div>
-                <div class="info-col col-lg-4 col-md-12 col-sm-12">
+                <!-- <div class="info-col col-lg-4 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="img-layer" style="background-image: url(images/background/image-11.jpg);"></div>
                         <div class="title">
@@ -201,7 +201,7 @@ if (isset($_GET["category"])) {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </div>

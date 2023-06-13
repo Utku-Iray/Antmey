@@ -21,7 +21,7 @@
                                         <!-- <div class="text">Come with family & feel the joy of mouthwatering food</div> -->
                                         <div class="links-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                             <div class="link">
-                                                <a href="menu-list-1.html" class="theme-btn btn-style-two clearfix">
+                                                <a href="hakkimizda.php" class="theme-btn btn-style-two clearfix">
                                                     <span class="btn-wrap">
                                                         <span class="text-one">Hakkımızda</span>
                                                         <span class="text-two">Hakkımızda</span>
@@ -100,7 +100,7 @@
         </div>
     </div>
 
-    <div class="book-btn"><a href="reservation-opentable.html" class="theme-btn"><span class="icon"><img src="images/resource/book-icon-1.png" alt="" title=""></span><span class="txt">book a table</span></a></div>
+    <!-- <div class="book-btn"><a href="reservation-opentable.html" class="theme-btn"><span class="icon"><img src="images/resource/book-icon-1.png" alt="" title=""></span><span class="txt">book a table</span></a></div> -->
 </section>
 <!--End Banner Section -->
 
@@ -110,10 +110,10 @@
     <div class="right-top-bg"><img src="images/background/bg-2.png" alt="" title=""></div>
     <div class="auto-container">
         <div class="title-box centered">
-            <div class="subtitle"><span>Flavors for royalty</span></div>
+            <div class="subtitle"><span>Kategorİler</span></div>
             <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-            <h2>We Offer Top Notch</h2>
-            <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever.</div>
+            <h2>Gözde Ürünlerimiz</h2>
+            <!-- <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever.</div> -->
         </div>
         <div class="row justify-content-center clearfix">
             <!--Block-->
@@ -156,20 +156,20 @@
             <div class="text-col col-xl-5 col-lg-5 col-md-12 col-sm-12">
                 <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
                     <div class="title-box centered">
-                        <div class="subtitle"><span>Our story</span></div>
+                        <div class="subtitle"><span>Hikayemiz</span></div>
                         <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                        <h2>Every Flavor Tells a Story</h2>
-                        <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into.</div>
+                        <h2>Hakkımızda</h2>
+                        <div class="text">2006 yılında kurulan tesisimiz 2022 yılında Antalya Meyveli İçecekler bünyesine katılmıştır. Üretimine Antalya Organize Sanayi Bölgesi karşısı Toptancılar Birliği Sitesinde devam etmektedir. Fabrikamızda kendi tescilli markalarımızla yaptığımız ürün grupları: Meyveli Konsantre ( 1+20 ) şuruplar, Karlama ( Ice Slush ), Kokteyl Şurupları ( 1+8 ), Meyve Püreleri, Topping Dekor Sosları, El yapımı limonata bazı ( 1+4 ), Sıkma Portakal Suyu...</div>
                     </div>
                     <div class="booking-info">
-                        <div class="bk-title">Book Through Call</div>
-                        <div class="bk-no"><a href="tel:+80-400-123456">+80 (400) 123 4567</a></div>
+                        <!-- <div class="bk-title">Book Through Call</div>
+                        <div class="bk-no"><a href="tel:+80-400-123456">+80 (400) 123 4567</a></div> -->
 
                         <div class="link-box">
-                            <a href="about.html" class="theme-btn btn-style-two clearfix">
+                            <a href="hakkimizda.php" class="theme-btn btn-style-two clearfix">
                                 <span class="btn-wrap">
-                                    <span class="text-one">Read More</span>
-                                    <span class="text-two">Read More</span>
+                                    <span class="text-one">Devamını Oku</span>
+                                    <span class="text-two">Devamını Oku</span>
                                 </span>
                             </a>
                         </div>
@@ -180,10 +180,10 @@
             <!--Col-->
             <div class="image-col col-xl-7 col-lg-7 col-md-12 col-sm-12">
                 <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
-                    <div class="round-stamp"><img src="images/resource/badge-1.png" alt=""></div>
+                    <!-- <div class="round-stamp"><img src="images/resource/badge-1.png" alt=""></div> -->
                     <div class="images parallax-scene-1">
-                        <div class="image" data-depth="0.15"><img src="images/resource/image-1.jpg" alt=""></div>
-                        <div class="image" data-depth="0.30"><img src="images/resource/image-2.jpg" alt=""></div>
+                        <div class="image" data-depth="0.15"><img src="images/fabrikaGorseller/1.JPG" alt=""></div>
+                        <div class="image" data-depth="0.30"><img src="images/fabrikaGorseller/6.JPG" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -238,9 +238,9 @@
     <div class="outer-container">
         <div class="auto-container">
             <div class="title-box centered">
-                <div class="subtitle"><span>special offer</span></div>
+                <div class="subtitle"><span>Ürünler</span></div>
                 <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                <h2>Best Specialties</h2>
+                <h2>Kategoriler</h2>
             </div>
             <div class="dish-gallery-slider owl-theme owl-carousel">
                 <!--Slide Item-->
@@ -355,11 +355,11 @@
     <div class="auto-container">
         <div class="outer-box">
             <div class="row clearfix">
-                <div class="reserv-col col-lg-8 col-md-12 col-sm-12">
+                <div class="reserv-col col-lg-12 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="title">
-                            <h2>Online Reservation</h2>
-                            <div class="request-info">Booking request <a href="#">+88-123-123456</a> or fill out the order form</div>
+                            <h2>Bizimle İletişime Geçin !</h2>
+                            <!-- <div class="request-info">Booking request <a href="#">+88-123-123456</a> or fill out the order form</div> -->
                         </div>
                         <div class="default-form reservation-form">
                             <form method="post" action="index.html">
@@ -429,8 +429,8 @@
 
                                             <button type="submit" class="theme-btn btn-style-one clearfix">
                                                 <span class="btn-wrap">
-                                                    <span class="text-one">book a table</span>
-                                                    <span class="text-two">book a table</span>
+                                                    <span class="text-one">Gönder</span>
+                                                    <span class="text-two">Gönder</span>
                                                 </span>
                                             </button>
 
@@ -441,7 +441,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="info-col col-lg-4 col-md-12 col-sm-12">
+                <!-- <div class="info-col col-lg-4 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="title">
                             <h2>Contact Us</h2>
@@ -459,7 +459,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </div>

@@ -1,92 +1,149 @@
-<!--Main Footer-->
-<footer class="main-footer">
-        <div class="image-layer" style="background-image: url(images/background/image-4.jpg);"></div>
-        <div class="upper-section">
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <!--Footer Col-->
-                    <div class="footer-col info-col col-lg-6 col-md-12 col-sm-12">
-                        <div class="inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="content">
-                                <div class="logo"><a href="index.php" title="Delici - Restaurants HTML Template"><img src="images/logo.png" alt="" title="Delici - Restaurants HTML Template"></a></div>
-                                <div class="info">
-                                    <ul>
-                                        <li>Restaurant St, Delicious City, London 9578, UK</li>
-                                        <li><a href="mailto:booking@domainname.com">booking@domainname.com</a></li>
-                                        <li><a href="tel:+88-123-123456">Booking Request : +88-123-123456</a></li>
-                                        <li>Open : 09:00 am - 01:00 pm</li>
-                                    </ul>
-                                </div>
-                                <div class="separator"><span></span><span></span><span></span></div>
-                                <div class="newsletter">
-                                    <h3>Get News & Offers</h3>
-                                    <div class="text">Subscribe us & Get <span>25% Off.</span></div>
-                                    <div class="newsletter-form">
-                                        <form method="post" action="index.html">
-                                            <div class="form-group">
-                                                <span class="alt-icon far fa-envelope"></span>
-                                                <input type="email" name="email" value="" placeholder="Your email" required>
-                                                <button type="submit" class="theme-btn btn-style-one clearfix">
-                                                    <span class="btn-wrap">
-                                                        <span class="text-one">subscribe</span>
-                                                        <span class="text-two">subscribe</span>
-                                                    </span>
-                                                </button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Footer Col-->
-                    <div class="footer-col links-col col-lg-3 col-md-6 col-sm-12">
-                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="links">
-                                <li><a href="home.html">Home</a></li>
-                                <li><a href="menu-list-1.html">Menus</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="our-chef.html">Our chefs</a></li>
-                                <li><a href="contact-us.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--Footer Col-->
-                    <div class="footer-col links-col last col-lg-3 col-md-6 col-sm-12">
-                        <div class="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="links">
-                                <li><a href="#">facebook</a></li>
-                                <li><a href="#">instagram</a></li>
-                                <li><a href="#">Twitter</a></li>
-                                <li><a href="#">Youtube</a></li>
-                                <li><a href="#">Google map</a></li>
-                            </ul>
-                        </div>
-                    </div>
+<!-- End Dental Tourism Blog Area -->
+<div id="capitol-callback">
+  <div class="cpt-circle"></div>
+  <div class="cpt-circle-fill"></div>
+  <a href="https://api.whatsapp.com/send?phone=+905421590907&text=Hello" id="WhatsAppBtnDesktop" target="_blank" class="main-button" lang="en">
+    <img src="https://nhtagent.com/nht-upload/assets/javascripts/WhatsApp/WhatsApp.png" width="50%">
+  </a>
+</div>
+<!-- Start Dental Tourism Footer Area -->
+<div class="dental-tourism-footer-area pt-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-sm-6">
+                <div class="dental-tourism-footer-widget">
+                    <h2>
+                        <a href="index.php">
+                            <img src="assets/images/logo/clinic-phaselis-beyaz.png" alt="">
+                        </a>
+                    </h2>
+                    
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="dental-tourism-footer-widget">
+                    <h3><?php echo $lang['usefulLinks'] ?></h3>
+
+                    <ul class="quick-links">
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="index.php"><?php echo $lang['homePage'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="about-us.php"><?php echo $lang['aboutUs'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="contact-us.php"><?php echo $lang['contactUs'] ?></a></li>
+                        <!-- <li><i class='bx bxs-chevrons-right'></i> <a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="contact-us.html">Contact Us</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="dental-tourism-footer-widget">
+                    <h3><?php echo $lang['ourServices'] ?></h3>
+
+                    <ul class="quick-links">
+                        <?php foreach ($plastic_JSON as $plastic ) {?>
+                            
+                       
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="<?= $plastic -> treatment_link ?>"><?= $plastic -> $langTreatmentName ?></a></li>
+                        <?php   } ?>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="dental-tourism-footer-widget">
+                    <h3><?php echo $lang['ourServices'] ?></h3>
+
+                    <ul class="quick-links">
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="bariatric_surgery.php"><?php echo $lang['bariatricSurgery'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="dental_procedures.php"><?php echo $lang['dentalProcedures'] ?></a></li>
+                        <li><i class='bx bxs-chevrons-right'></i> <a href="hair_transplant_details.php"><?php echo $lang['hairTransplant'] ?></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="dental-tourism-footer-widget">
+                    <h3><?php echo $lang['contact'] ?></h3>
+
+                    <ul class="info-list">
+                        <li><span><?php echo $lang['location'] ?>:</span> Muratpaşa/Antalya</li>
+                        <li><span><?php echo $lang['phone'] ?>:</span> <a href="tel:+90 0850 757 93 94"> + 90 0850 757 93 94</a></li>
+                        <li><span>Whatsapp:</span> <a href="tel:+90 542 159 09 07">+90 542 159 09 07</a></li>
+                        <li><span>E-Mail:</span> <a href="mailto:info@clinicphaselis.com">info@clinicphaselis.com</a></li>
+                    </ul>
+                    <ul class="share-link">
+                        <li>
+                            <span><?php echo $lang['getSocial'] ?>:</span>
+                        </li>
+                        <li>
+                                <a href="https://www.facebook.com/clinicphaselis" target="_blank">
+                                    <i class='bx bxl-facebook'></i>
+                                </a>
+                            </li>
+                            <!-- <li>
+                                <a href="https://twitter.com/?lang=en" target="_blank">
+                                    <i class='bx bxl-twitter'></i>
+                                </a>
+                            </li> -->
+                            <li>
+                                <a href="https://www.linkedin.com/company/clinicphaselis/" target="_blank">
+                                    <i class='bx bxl-linkedin'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/clinicphaselis/" target="_blank">
+                                    <i class='bx bxl-instagram'></i>
+                                </a>
+                            </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="auto-container">
-                <div class="copyright">&copy; 2022 Restaurt. All Rights Reserved   |    Crafted by <a href="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</a></div>
+
+        <div class="dental-tourism-copyright-area">
+            <div class="container">
+                <div class="copyright-area-content">
+                    <p>
+                        © 
+                        <a href="https://www.ideaplusagency.net/" target="_blank">
+                            Ideaplus Digital Agency
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
-    </footer>
-
+    </div>
 </div>
-<!--End pagewrapper--> 
+<!-- End Dental Tourism Footer Area -->
 
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>
+<!-- Start Go Top Area -->
+<div class="go-top">
+    <i class='bx bx-up-arrow-alt'></i>
+</div>
+<!-- End Go Top Area -->
 
-<script src="js/jquery.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/swiper.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/parallax.min.js"></script>
-<script src="js/custom-script.js"></script>
+<!-- Jquery Slim JS -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- Meanmenu JS -->
+<script src="assets/js/jquery.meanmenu.js"></script>
+<!-- Owl Carousel JS -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!-- Jquery Appear JS -->
+<script src="assets/js/jquery.appear.js"></script>
+<!-- Odometer JS -->
+<script src="assets/js/odometer.min.js"></script>
+<!-- Nice Select JS -->
+<script src="assets/js/nice-select.min.js"></script>
+<!-- Popup JS -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Ajaxchimp JS -->
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+<!-- Form Validator JS -->
+<script src="assets/js/form-validator.min.js"></script>
+<!-- Contact JS -->
+<script src="assets/js/contact-form-script.js"></script>
+<!-- Wow JS -->
+<script src="assets/js/wow.min.js"></script>
+<!-- Custom JS -->
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>

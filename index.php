@@ -9,7 +9,7 @@
             <div class="swiper-wrapper">
                 <!--Slide Item-->
                 <div class="swiper-slide slide-item">
-                    <div class="image-layer" style="background-image: url(images/slider1.jpg);"></div>
+                    <div class="image-layer" style="background-image: url(images/yeni-slider.jpg);"></div>
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="content">
@@ -85,7 +85,7 @@
         <div class="title-box centered">
             <div class="subtitle"><span>Kategorİler</span></div>
             <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-            <h2>Gözde Ürünlerimiz</h2>
+            <h2>Premium +</h2>
             <!-- <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever.</div> -->
         </div>
         <div class="row justify-content-center clearfix">
@@ -93,7 +93,7 @@
             <div class="offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                     <div class="image"><a href="product_list.php?category=meymiks-konsantre-icecekler"><img src="images/captan.jpg" alt=""></a></div>
-                    <h3><a href="product_list.php?category=meymiks-konsantre-icecekler">Konsantre İçecek (Meyveli Şuruplar)</a></h3>
+                    <h3><a href="product_list.php?category=meymiks-konsantre-icecekler">Konsantre İçecekler (Meyveli Şuruplar)</a></h3>
                     <div class="more-link"><a href="product_list.php?category=meymiks-konsantre-icecekler">Hepsini Gör</a></div>
                 </div>
             </div>
@@ -249,7 +249,7 @@
 
 <!--Testimonials Section-->
 <section class="testimonials-section">
-    <div class="image-layer" style="background-image: url(images/background/image-2.jpg);"></div>
+    <div class="image-layer" ></div>
     <div class="auto-container">
         <div class="carousel-box">
             <div class="testi-top owl-theme owl-carousel">
@@ -335,37 +335,39 @@
                             <!-- <div class="request-info">Booking request <a href="#">+88-123-123456</a> or fill out the order form</div> -->
                         </div>
                         <div class="default-form reservation-form">
-                            <form method="post" action="index.html">
+                            <form method="post" action="mail/mail.php">
                                 <div class="row clearfix">
                                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                         <div class="field-inner">
-                                            <input type="text" name="fieldname" value="" placeholder="Adınız" required>
+                                            <input type="text" name="patientnamesurname" value="" placeholder="Adınız" required>
                                         </div>
                                     </div>
                                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                         <div class="field-inner">
-                                            <input type="text" name="fieldname" value="" placeholder="Telefon" required>
+                                            <input type="number" name="patientPhone" value="" placeholder="Telefon" required>
                                         </div>
                                     </div>
                                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                         <div class="field-inner">
-                                            <input type="text" name="fieldname" value="" placeholder="E-Mail" required>
+                                            <input type="email" name="mail" value="" placeholder="E-Mail" required>
                                         </div>
                                     </div><div class="form-group col-lg-6 col-md-6 col-sm-12">
                                         <div class="field-inner">
-                                            <input type="text" name="fieldname" value="" placeholder="Şirket" required>
+                                            <input type="text" name="patientSubject" value="" placeholder="Konu" required>
                                         </div>
                                     </div>
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                         <div class="field-inner">
-                                            <textarea name="fieldname" placeholder="Mesaj" required></textarea>
+                                            <textarea name="patientNote" placeholder="Mesaj" required></textarea>
                                         </div>
                                     </div>
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                         <div class="field-inner">
+                                        <input style="display: none;" value="Anasayfa" name="sayfa" type="text">
 
                                             <button type="submit" class="theme-btn btn-style-one clearfix">
-                                                <span class="btn-wrap">
+                                                
+                                            <span class="btn-wrap">
                                                     <span class="text-one">Gönder</span>
                                                     <span class="text-two">Gönder</span>
                                                 </span>

@@ -48,7 +48,7 @@
     {
         "product_name": "Böğürtlen",
         "product_images": "images/product/bojeMoyKokteylSuruplari/bogurtlen.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Rengi ile dikkat çeken Boje Moy böğürtlen aromalı şurup tabiki de kokteyllerinizin vazgeçilmezi arasına girecektir. Tadı damağınızda kalacak ve tekrardan aynı kokteyli içmek isteyeceğinizin teminatı biz tarafından verilmektedir. ",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -72,7 +72,7 @@
     {
         "product_name": "Fındık",
         "product_images": "images/product/bojeMoyKokteylSuruplari/findik.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Karadeniz`in ünlü fındıklarını Boje Moy fındık  aromalı şurup şişelerimizde bulabilirsiniz. Karadeniz`in samimiyetini artık mutfağınızda bizimle beraber hissedebilirsiniz.",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -114,7 +114,7 @@
     {
         "product_name": "Nane",
         "product_images": "images/product/bojeMoyKokteylSuruplari/nane.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Limonata için farklı kombinasyonlar yapmak ve yaza daha serin girmek isteyenleri Boje Moy nane aromalı şurup ile buluşturmak istiyoruz. Zengin aroması sayesinde birçok çeşit kokteyl yapmanızda da yardımcı olacaktır.",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -150,7 +150,7 @@
     {
         "product_name": "Vanilya",
         "product_images": "images/product/bojeMoyKokteylSuruplari/vanilya.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Muhteşem kıvamı ve güzel kokusu ile Boje Moy Vanilya aromalı şurubumuzu hazırlayacağınız kahvelere ilave edebilir ya da farklı kombinasyonlar ile birçok çeşit kokteyl oluşturabilirsiniz. ",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -162,7 +162,7 @@
     {
         "product_name": "Yeşil Elma",
         "product_images": "images/product/bojeMoyKokteylSuruplari/yesil-elma.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Özenle seçilen yeşil elmalardan üretilen Boje Moy yeşil elma aromalı şurup ile meyvenin mayhoşluğunu dilediğiniz kokteyle yansıtabilirsiniz. Diğer çeşitlerimiz gibi %100 doğal olarak üretilmektedir.",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -292,19 +292,19 @@
     {
         "product_name": "Çilek",
         "product_images": "images/product/captainCustoPure/cilek.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Alışık olduğunuz çilekli frozen tadına bir farkındalık getiriyor ve size en özel tadları  Captain Custo çilek püresi şişeleriyle sunuyoruz. Frozen, çileğin doğal haliyle daha güzel.. ",
         "category_url": "captan-custo-pure"
     } ,
     {
         "product_name": "Karpuz",
         "product_images": "images/product/captainCustoPure/karpuz.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "1. Sınıf kalitesi ile yaz aylarında sizi ferahlatacak ve eşsiz bir lezzet sunacak karpuzlu frozen Captain Custo şişelerinde saklı. Özel formülleri ve ISO22000 sertifikası güvencesiyle gönül rahatlığıyla eşsiz frozen lezzetine ulaşabilirsiniz.",
         "category_url": "captan-custo-pure"
     },
     {
         "product_name": "Mango",
         "product_images": "images/product/captainCustoPure/mango.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Tropikal bir tadı Captain Custo mango püresi şişelerimize aktararak sizlere en özel frozenları yapmanızda yardımcı oluyoruz. Tadından, dokusundan ve kokusundan siz de en az bizler kadar memnun kalacaksınız.",
         "category_url": "captan-custo-pure"
     },
     {
@@ -316,13 +316,13 @@
     {
         "product_name": "Seftali",
         "product_images": "images/product/captainCustoPure/seftali.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Muhteşem kokusu ve eşsiz rengi ile yaza damga vuracak tadları oluşturmanız Captain Custo Şeftali püresi ile mümkün. Koruyucu, katkı madddesi ve renklendirici içermeden ISO22000 sertifikası güvencesiyle %100 doğal olarak üretilmektedir.",
         "category_url": "captan-custo-pure"
     },
     {
         "product_name": "Yaban Mersini",
         "product_images": "images/product/captainCustoPure/yaban-mersini.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Kendine özgü rengi, kokusu ve tadıyla Captain Custo Yaban Mersini püresi ile sizi kendine hayran bırakacak tatlar yaratmanız mümkün. Yaz aylarında serinleten frozen yanı sıra eşsiz smoothie lezzeti oluşturmanız da mümkün..",
         "category_url": "captan-custo-pure"
     }
 
@@ -334,25 +334,25 @@
     {
         "product_name": "Çikolata",
         "product_images": "images/product/captainCustoToppingDekorSoslari/cikolata.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Hazırladığınız tabağın daha şık bir hale gelmesini sağlamak için çikolata sosumuzu dekor olarak kullanabilir ya da dondurma, pasta, kek ve diğer birçok üründe topping sosu olarak kullanabilirsiniz.",
         "category_url": "captan-custo-puretopping-dekor-soslari"
     },
     {
         "product_name": "Çilek",
         "product_images": "images/product/captainCustoToppingDekorSoslari/cilek.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Çileğin etkileyici kırmızısını ve tadını artık dekor olarak kullanabilecek ve hazırlayacağınız tatlılara enfes bir tad olarak aktarabileceksiniz. %100 doğal olarak hazırlanır. Koruyucu ve renklendirici içermez.",
         "category_url": "captan-custo-puretopping-dekor-soslari"
     },
     {
         "product_name": "Kivi",
         "product_images": "images/product/captainCustoToppingDekorSoslari/kivi.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Hazırlayacağınız tatlara tropikal bir hava katmak için kullanabileceğiniz eşsiz bir çeşidimiz. Kivinin dekor ve topping halini en üst seviyede yaşatmak için şişelerimize en özel formülleri yazdık.",
         "category_url": "captan-custo-puretopping-dekor-soslari"
     },
     {
         "product_name": "Muz",
         "product_images": "images/product/captainCustoToppingDekorSoslari/muz.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "Anamur’dan özel olarak toplanan muzları Captain Custo dekor ve topping sosları olarak tabaklarınıza ve hazırlayacağınız her tür tatlıya ve dondurmalara aktarabilirsiniz. Farklı kombinasyonlarda kullanıp eşsiz tatlar yaratabilirsiniz.",
         "category_url": "captan-custo-puretopping-dekor-soslari"
     }
 
@@ -413,41 +413,41 @@
 
 
 
-    ,
-    {
-        "product_name": "Bag In Box",
-        "product_images": "images/product/meymiksKonsantreIcecekler/bag-in-box.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+    ,{
+        "product_name": "Makine",
+        "product_images": "images/product/meymiksKonsantreIcecekler/makine4.png",
+        "product_description": "1+20, Portakal, Limon, Vişne, Elma, Şeftali, Ananas",
         "category_url": "meymiks-konsantre-icecekler"
-    },
-    {
+    },  {
+        "product_name": "Makine",
+        "product_images": "images/product/meymiksKonsantreIcecekler/makine3.png",
+        "product_description": "1+20, Portakal, Limon, Vişne, Elma, Şeftali, Ananas",
+        "category_url": "meymiks-konsantre-icecekler"
+    },{
         "product_name": "Makine",
         "product_images": "images/product/meymiksKonsantreIcecekler/makine1.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "1+4 Doğal limonata, Taze portakal suyu",
         "category_url": "meymiks-konsantre-icecekler"
     },
     {
         "product_name": "Makine",
         "product_images": "images/product/meymiksKonsantreIcecekler/makine2.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "1+4 Doğal limonata, Taze portakal suyu",
         "category_url": "meymiks-konsantre-icecekler"
     },
     {
-        "product_name": "Makine",
-        "product_images": "images/product/meymiksKonsantreIcecekler/makine3.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_name": "Bag In Box",
+        "product_images": "images/product/meymiksKonsantreIcecekler/bag-in-box.png",
+        "product_description": "",
         "category_url": "meymiks-konsantre-icecekler"
     },
-    {
-        "product_name": "Makine",
-        "product_images": "images/product/meymiksKonsantreIcecekler/makine4.png",
-        "product_description": "Lorem İpsun Dolor Amet",
-        "category_url": "meymiks-konsantre-icecekler"
-    },
+    
+  
+    
     {
         "product_name": "Meymiks Bag In Box Kolisi",
         "product_images": "images/product/meymiksKonsantreIcecekler/meymiks-bag-in-box-kolisi.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "meymiks-konsantre-icecekler"
     }
 

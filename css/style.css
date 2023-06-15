@@ -821,7 +821,7 @@ body.visible-sidebar {
 
 .hidden-bar .inner-box {
     position: relative;
-    background-color: var(--color-two);
+    background-color: white;
     padding-top: var(--padding-top-75);
     padding-bottom: var(--padding-bottom-50);
 }
@@ -857,7 +857,7 @@ body.visible-sidebar {
 
 .hidden-bar .inner-box .logo-box img {
     position: relative;
-    max-height: 50px;
+    max-height: 70px;
 }
 
 .hidden-bar h2 {
@@ -935,7 +935,7 @@ body.visible-sidebar {
 .hidden-bar .booking-info .bk-no a {
     position: relative;
     display: inline-block;
-    color: var(--main-color);
+    color: var(--black-color);
 }
 
 .hidden-bar .booking-info .bk-no a:before {
@@ -977,12 +977,12 @@ body.visible-sidebar {
 .hidden-bar .side-menu ul li {
     position: relative;
     display: block;
-    border-bottom: 1px solid var(--white-color-opacity-four);
+    border-bottom: 1px solid var(--black-color-opacity-four);
 }
 
 .hidden-bar .side-menu ul li a {
     position: relative;
-    color: var(--white-color);
+    color: var(--black-color);
     display: block;
     font-weight: 400;
     font-size: var(--font-12);
@@ -1045,7 +1045,7 @@ body.visible-sidebar {
     top: 10px;
     right: 0px;
     background: none;
-    color: var(--white-color);
+    color: var(--black-color);
     font-size: var(--font-12);
     height: 30px;
     width: 30px;

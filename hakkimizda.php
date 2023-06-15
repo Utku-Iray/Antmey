@@ -94,8 +94,7 @@
 </section>
 
 <!--Services Section-->
-<section class="services-section">
-    <!-- <div class="left-bg"><img src="images/background/bg-14.png" alt="" title=""></div> -->
+<!-- <section class="services-section">
     
     <div class="auto-container">
         <div class="title-box centered">
@@ -147,7 +146,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!--Testimonials Section-->
 

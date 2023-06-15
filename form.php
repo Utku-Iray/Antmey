@@ -25,47 +25,48 @@
 
         </div>
         <div class="default-form reservation-form">
-            <form method="post" action="index.html">
-                <div class="row clearfix">
-                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                        <div class="field-inner">
-                            <input type="text" name="fieldname" value="" placeholder="Adınız" required>
-                        </div>
-                    </div>
-                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                        <div class="field-inner">
-                            <input type="text" name="fieldname" value="" placeholder="Telefon" required>
-                        </div>
-                    </div>
-                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                        <div class="field-inner">
-                            <input type="text" name="fieldname" value="" placeholder="E-Mail" required>
-                        </div>
-                    </div>
-                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                        <div class="field-inner">
-                            <input type="text" name="fieldname" value="" placeholder="Şirket" required>
-                        </div>
-                    </div>
-                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                        <div class="field-inner">
-                            <textarea name="fieldname" placeholder="Mesaj" required></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                        <div class="field-inner">
+        <form method="post" action="mail/mail.php">
+                                <div class="row clearfix">
+                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                        <div class="field-inner">
+                                            <input type="text" name="patientnamesurname" value="" placeholder="Adınız" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                        <div class="field-inner">
+                                            <input type="number" name="patientPhone" value="" placeholder="Telefon" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                        <div class="field-inner">
+                                            <input type="email" name="mail" value="" placeholder="E-Mail" required>
+                                        </div>
+                                    </div><div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                        <div class="field-inner">
+                                            <input type="text" name="patientSubject" value="" placeholder="Konu" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                        <div class="field-inner">
+                                            <textarea name="patientNote" placeholder="Mesaj" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                        <div class="field-inner">
+                                        <input style="display: none;" value="Form Sayfası" name="sayfa" type="text">
 
-                            <button type="submit" class="theme-btn btn-style-one clearfix">
-                                <span class="btn-wrap">
-                                    <span class="text-one">Gönder</span>
-                                    <span class="text-two">Gönder</span>
-                                </span>
-                            </button>
+                                            <button type="submit" class="theme-btn btn-style-one clearfix">
+                                                
+                                            <span class="btn-wrap">
+                                                    <span class="text-one">Gönder</span>
+                                                    <span class="text-two">Gönder</span>
+                                                </span>
+                                            </button>
 
-                        </div>
-                    </div>
-                </div>
-            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
            
         </div>
     </div>

@@ -109,7 +109,7 @@ $categories_JSON = json_decode($JSON);
                                         </ul>
                                     </li> -->
                                         <li><a href="hakkimizda.php">HAKKIMIZDA</a></li>
-                                        <li class="dropdown"><a href="urunler.php">ÜRÜNLER</a>
+                                        <li class="dropdown"><a href="#0">ÜRÜNLER</a>
                                             <ul>
                                                 <?php foreach ($categories_JSON as $category) { ?>
                                                     <li><a href="product_list.php?category=<?= $category->category_url ?>"><?= $category->category_name ?></a></li>
@@ -187,43 +187,29 @@ $categories_JSON = json_decode($JSON);
             <!-- Hidden Bar Wrapper -->
             <div class="inner-box">
                 <div class="cross-icon hidden-bar-closer"><span class="far fa-close"></span></div>
-                <div class="logo-box"><a href="index.php" title="Delici - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="" title="Delici - Restaurants HTML Template"></a></div>
+                <div class="logo-box"><a href="index.php" title="Antmey"><img src="images/antmey-logo.png" alt="" title="Antmey"></a></div>
 
                 <!-- .Side-menu -->
                 <div class="side-menu">
                     <ul class="navigation clearfix">
-                        <li class="current"><a href="index.php">Home</a>
+                        <li><a href="index.php">Anasayfa</a>
                         </li>
-                        <li class="dropdown"><a href="menu-list.html">Menus</a>
+                        <li><a href="hakkimizda.php">HAKKIMIZDA</a></li>
+                        <li class="dropdown"><a href="#0">ÜRÜNLER</a>
                             <ul>
-                                <li><a href="menu-list-1.html">Menu List 1</a></li>
-                                <li><a href="menu-list-2.html">Menu List 2</a></li>
-                                <li><a href="menu-list-3.html">Menu List 3</a></li>
-                                <li><a href="menu-list-4.html">Menu List 4</a></li>
+                                <?php foreach ($categories_JSON as $category) { ?>
+                                    <li><a href="product_list.php?category=<?= $category->category_url ?>"><?= $category->category_name ?></a></li>
+
+                                <?php   } ?>
                             </ul>
                         </li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="our-chef.html">Our chefs</a></li>
-                        <li class="dropdown"><a href="#">Pages</a>
-                            <ul>
-                                <li><a href="#">Dropdown Menu 1</a></li>
-                                <li><a href="#">Dropdown Menu 2</a></li>
-                                <li><a href="#">Dropdown Menu 3</a></li>
-                                <li class="dropdown"><a href="#">Dropdown Menu 4</a>
-                                    <ul>
-                                        <li><a href="#">Dropdown Menu level 2</a></li>
-                                        <li><a href="#">Dropdown Menu level 2</a></li>
-                                        <li><a href="#">Dropdown Menu Level 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Dropdown Lorem 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact-us.html">Contact</a></li>
+                        <li><a href="pdf/antmeyKatalog.pdf" target="_blank">KATALOG</a></li>
+                        <li><a href="iletisim.php">İLETİŞİM</a></li>
+
                     </ul>
                 </div><!-- /.Side-menu -->
 
-                <h2>Visit Us</h2>
+                <h2 style="color: black;">LOKASYON</h2>
                 <ul class="info">
                     <li>Aşağıoba Mh.Toptancılar Birliği Sk. No:107/C7 Döşemealtı / Antalya</li>
                     <!-- <li>Open: 9.30 am - 2.30pm</li> -->
@@ -231,8 +217,8 @@ $categories_JSON = json_decode($JSON);
                 </ul>
                 <div class="separator"><span></span></div>
                 <div class="booking-info">
-                    <div class="bk-title">Booking request</div>
-                    <div class="bk-no"><a href="tel:+88-123-123456">+88-123-123456</a></div>
+                    <div style="color: black;" class="bk-title">Telefon</div>
+                    <div class="bk-no"><a href="tel:+90 (242) 257 00 36">+90 (242) 257 00 36</a></div>
                 </div>
 
             </div><!-- / Hidden Bar Wrapper -->

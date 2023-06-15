@@ -66,31 +66,36 @@
                                 <!-- <div class="text desc">Have a question about the our service? We're here to help, contact us today</div> -->
                             </div>
                             <div class="default-form reservation-form">
-                                <form method="post" action="index.html">
+                                <form method="post" action="mail/mail.php">
                                     <div class="clearfix">
                                         <div class="form-group">
                                             <div class="field-inner">
-                                                <input type="text" name="fieldname" value="" placeholder="Your Name" required="">
+                                                <input type="text" name="patientnamesurname" value="" placeholder="İsim" required="">
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class="field-inner">
-                                                <input type="text" name="fieldname" value="" placeholder="Your Email" required="">
+                                                <input type="email" name="mail" value="" placeholder="Your Email" required="">
                                             </div>
                                         </div>
                                         <div class="form-group ">
                                             <div class="field-inner">
-                                                <input type="text" name="fieldname" value="" placeholder="Phone Number" required="">
+                                                <input type="number" name="patientPhone" value="" placeholder="Numara" required="">
                                             </div>
                                         </div>
-
                                         <div class="form-group ">
                                             <div class="field-inner">
-                                                <textarea name="fieldname" placeholder="Special Request" required=""></textarea>
+                                                <input type="text" name="patientSubject" value="" placeholder="Konu" required="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group ">
+                                            <div class="field-inner">
+                                                <textarea name="patientNote" placeholder="Mesaj" required=""></textarea>
                                             </div>
                                         </div>
 
                                         <div class="form-group">
+                                        <input style="display: none;" value="İletişim" name="sayfa" type="text">
                                             <button type="submit" class="theme-btn btn-style-one clearfix">
                                         <span class="btn-wrap">
                                             <span class="text-one">Mesajı Gönder</span>

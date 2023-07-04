@@ -40,7 +40,7 @@
     {
         "product_name": "Acı Badem",
         "product_images": "images/product/bojeMoyKokteylSuruplari/aci-badem.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "boje-moy-kokteyl-suruplari"
     }
     ,
@@ -54,7 +54,7 @@
     {
         "product_name": "Çarkı Felek",
         "product_images": "images/product/bojeMoyKokteylSuruplari/carkifelek.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -66,7 +66,7 @@
     {
         "product_name": "Çilek",
         "product_images": "images/product/bojeMoyKokteylSuruplari/cilek.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -96,13 +96,13 @@
     {
         "product_name": "Kavun",
         "product_images": "images/product/bojeMoyKokteylSuruplari/kavun.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
         "product_name": "Mürver Çiçeği",
         "product_images": "images/product/bojeMoyKokteylSuruplari/murver-cicegi.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -126,7 +126,7 @@
     {
         "product_name": "Portakal",
         "product_images": "images/product/bojeMoyKokteylSuruplari/portakal.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -156,7 +156,7 @@
     {
         "product_name": "Yaban Mersini",
         "product_images": "images/product/bojeMoyKokteylSuruplari/yaban-mersini.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -181,7 +181,7 @@
     {
         "product_name": "Antmey Kokteyl Şurubu Kolisi",
         "product_images": "images/product/captainCustoKokteylSuruplari/antmey-kokteyl-surubu-kolisi.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
@@ -205,13 +205,13 @@
     {
         "product_name": "Karpuz",
         "product_images": "images/product/captainCustoKokteylSuruplari/karpuz.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
         "product_name": "Kavun",
         "product_images": "images/product/captainCustoKokteylSuruplari/kavun.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
@@ -223,14 +223,14 @@
     {
         "product_name": "Mango",
         "product_images": "images/product/captainCustoKokteylSuruplari/mango.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "captan-custo-kokteyl-suruplari"
     }
     ,
     {
         "product_name": "Mojito",
         "product_images": "images/product/captainCustoKokteylSuruplari/mojito.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
@@ -242,7 +242,7 @@
     {
         "product_name": "Nane",
         "product_images": "images/product/captainCustoKokteylSuruplari/nane.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
@@ -254,7 +254,7 @@
     {
         "product_name": "Tatlı Ekşi",
         "product_images": "images/product/captainCustoKokteylSuruplari/tatli-eksi.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
@@ -266,13 +266,13 @@
     {
         "product_name": "Vanilya",
         "product_images": "images/product/captainCustoKokteylSuruplari/vanilya.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
         "product_name": "Yeşil Elma",
         "product_images": "images/product/captainCustoKokteylSuruplari/yesil-elma.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
@@ -310,7 +310,7 @@
     {
         "product_name": "Orman Meyveli",
         "product_images": "images/product/captainCustoPure/orman-meyveli.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "captan-custo-pure"
     },
     {
@@ -365,25 +365,25 @@
     {
         "product_name": "Boje Moy Enerji İçeceği",
         "product_images": "images/product/gazliIcecekler/boje-moy-enerji-icecegi.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "gazli-icecekler"
     },
     {
         "product_name": "Mordağ Bitter Limon",
         "product_images": "images/product/gazliIcecekler/mordag-bitter-limon.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "gazli-icecekler"
     },
     {
         "product_name": "Mordağ Limonata",
         "product_images": "images/product/gazliIcecekler/mordag-limonata.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "gazli-icecekler"
     },
     {
         "product_name": "Mordağ Tonik",
         "product_images": "images/product/gazliIcecekler/mordag-tonik.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "gazli-icecekler"
     }
 
@@ -395,19 +395,19 @@
     {
         "product_name": "Çilek",
         "product_images": "images/product/meymiksKarlama/cilek.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "meymiks-karlama"
     },
     {
         "product_name": "Limon",
         "product_images": "images/product/meymiksKarlama/limon.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "meymiks-karlama"
     },
     {
         "product_name": "Yeşil Kavun",
         "product_images": "images/product/meymiksKarlama/yesil-kavun.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "meymiks-karlama"
     }
 
@@ -457,26 +457,26 @@
     {
         "product_name": "Makine",
         "product_images": "images/product/tazeMeyveSulari/makine1.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "taze-meyve-sulari"
     }
     ,
     {
         "product_name": "Makine",
         "product_images": "images/product/tazeMeyveSulari/makine2.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "taze-meyve-sulari"
     } ,
     {
         "product_name": "Meymiks Limonata",
         "product_images": "images/product/tazeMeyveSulari/meymiks-limonata.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "taze-meyve-sulari"
     },
     {
         "product_name": "Meymiks Portakal Suyu",
         "product_images": "images/product/tazeMeyveSulari/meymiks-portakal-suyu.png",
-        "product_description": "Lorem İpsun Dolor Amet",
+        "product_description": "",
         "category_url": "taze-meyve-sulari"
     }
 

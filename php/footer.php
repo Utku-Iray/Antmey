@@ -28,7 +28,7 @@
                                 <li><a href="index.php">Anasayfa</a></li>
                                 <li><a href="pdf/antmeyKatalog.pdf" target="_blank">Katalog</a></li>
                                 <li><a href="hakkimizda.php">Hakkımızda</a></li>
-                                <li><a href="iletisim.php">İletisim</a></li>
+                                <li><a href="iletisim.php">İletİsİm</a></li>
                             </ul>
                         </div>
                     </div>
@@ -36,11 +36,11 @@
                     <div class="footer-col links-col last col-lg-3 col-md-6 col-sm-12">
                         <div class="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="links">
-                                <li><a href="#">facebook</a></li>
-                                <li><a href="#">instagram</a></li>
-                                <li><a href="#">Twitter</a></li>
+                                <!-- <li><a href="#">facebook</a></li> -->
+                                <li><a href="https://instagram.com/antmey_official" target="_blank">instagram</a></li>
+                                <!-- <li><a href="#">Twitter</a></li>
                                 <li><a href="#">Youtube</a></li>
-                                <li><a href="#">Google map</a></li>
+                                <li><a href="#">Google map</a></li> -->
                             </ul>
                         </div>
                     </div>

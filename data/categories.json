@@ -1,19 +1,19 @@
 [
     {
-        "category_name": "Captain Custo Alkolsüz Şampanya",
+        "category_name": "Captain Custo <br> Alkolsüz Şampanya",
         "category_image": "images/product/captainCustoAlkolsuzSampanya/kapak-foto.png",
         "category_url": "captan-custo-alkolsuz-sampanya"
     },
     {
-        "category_name": "Captain Custo Kokteyl Şurupları",
+        "category_name": "Captain Custo <br> Kokteyl Şurupları",
         "category_image": "images/product/captainCustoKokteylSuruplari/kapak-foto.png",
         "category_url": "captan-custo-kokteyl-suruplari"
     },{
-        "category_name": "Boje Moy Kokteyl Şurupları",
+        "category_name": "Boje Moy <br> Kokteyl Şurupları",
         "category_image": "images/product/bojeMoyKokteylSuruplari/kapak-foto.png",
         "category_url": "boje-moy-kokteyl-suruplari"
     },{
-        "category_name": "Meymiks Konsantre İçecekler (Meyveli Şuruplar)",
+        "category_name": "Meymiks <br>  Konsantre İçecekler <br> (Meyveli Şuruplar)",
         "category_image": "images/product/meymiksKonsantreIcecekler/kapak-foto.png",
         "category_url": "meymiks-konsantre-icecekler"
     }
@@ -28,7 +28,7 @@
         "category_url": "captan-custo-pure"
     },
     {
-        "category_name": "Captain Custo Topping Dekor Sosları",
+        "category_name": "Captain Custo <br> Topping Dekor Sosları",
         "category_image": "images/product/captainCustoToppingDekorSoslari/kapak-foto.png",
         "category_url": "captan-custo-puretopping-dekor-soslari"
     },{

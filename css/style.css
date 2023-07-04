@@ -1422,6 +1422,7 @@ body.visible-sidebar {
 }
 
 .banner-section .slide-item h1 {
+    font-size: 100px;
     position: relative;
     font-weight: 400;
     text-transform: none;
@@ -1435,6 +1436,7 @@ body.visible-sidebar {
 }
 
 .banner-section .slide-item h1 span {
+    font-family: inherit;
     color: black;
     position: relative;
     display: inline-block;
@@ -2838,8 +2840,8 @@ body.visible-sidebar {
 
 .reserve-section .outer-box {
     position: relative;
-    top: -270px;
-    margin-bottom: -270px;
+    top: -60px;
+    margin-bottom: 0px;
     background: var(--color-five);
     z-index: 1;
 }
@@ -5518,7 +5520,8 @@ body.visible-sidebar {
     display: block;
     overflow: hidden;
     border-radius: 20px;
-    background-color: var(--main-color);
+    /* background-color: var(--main-color); */
+    background-color: rgb(225 217 203);
     margin-bottom: var(--margin-bottom-15);
 }
 
@@ -7090,7 +7093,7 @@ body.visible-sidebar {
     /* align-self: flex-end; */
     height: 2px;
     width: 83.33333333%;
-    background: #ffffff;
+    background: #000000;
     transition: all 400ms ease-in-out;
 }
 

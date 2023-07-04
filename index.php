@@ -17,7 +17,7 @@
                                     <div class="inner">
                                         <div class="subtitle"><span>LANSMAN ÖZEL</span></div>
                                         <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                                        <h1><span>Hikayenizi Baştan Yazacak Formüller </span></h1>
+                                        <h1><span>Hikayenizi Baştan <br> Yazacak Formüller </span></h1>
                                         <!-- <div class="text">Come with family & feel the joy of mouthwatering food</div> -->
                                         <div class="links-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                             <div class="link">
@@ -122,7 +122,7 @@
 
 <!--Story Section-->
 <section class="story-section">
-    <div class="left-bg"><img src="images/background/bg-3.png" alt="" title=""></div>
+    <!-- <div class="left-bg"><img src="images/background/bg-3.png" alt="" title=""></div> -->
     <div class="auto-container">
         <div class="row clearfix">
             <!--Col-->
@@ -248,7 +248,7 @@
 </section>
 
 <!--Testimonials Section-->
-<section class="testimonials-section">
+<!-- <section class="testimonials-section">
     <div class="image-layer" ></div>
     <div class="auto-container">
         <div class="carousel-box">
@@ -321,7 +321,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!--Reservation Section-->
 <section class="reserve-section">

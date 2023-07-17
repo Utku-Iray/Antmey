@@ -92,7 +92,7 @@
             <!--Block-->
             <div class="offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                    <div class="image"><a href="product_list.php?category=meymiks-konsantre-icecekler"><img src="images/captan.jpg" alt=""></a></div>
+                    <div class="image"><a href="product_list.php?category=meymiks-konsantre-icecekler"><img src="images/meymiks-konsantre-icecekler-premium.jpg" alt=""></a></div>
                     <h3><a href="product_list.php?category=meymiks-konsantre-icecekler">Konsantre İçecekler (Meyveli Şuruplar)</a></h3>
                     <div class="more-link"><a href="product_list.php?category=meymiks-konsantre-icecekler">Hepsini Gör</a></div>
                 </div>
@@ -101,7 +101,7 @@
             <!--Block-->
             <div class="offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
-                    <div class="image"><a href="product_list.php?category=captan-custo-alkolsuz-sampanya"><img src="images/captan.jpg" alt=""></a></div>
+                    <div class="image"><a href="product_list.php?category=captan-custo-alkolsuz-sampanya"><img src="images/captain-custo-alkolsuz-sampanya-premium.jpg" alt=""></a></div>
                     <h3><a href="product_list.php?category=captan-custo-alkolsuz-sampanya">Alkolsüz Şampanya</a></h3>
                     <div class="more-link"><a href="product_list.php?category=captan-custo-alkolsuz-sampanya">Hepsini Gör</a></div>
                 </div>
@@ -110,7 +110,7 @@
             <!--Block-->
             <div class="offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
-                    <div class="image"><a href="product_list.php?category=captan-custo-kokteyl-suruplari"><img src="images/captan.jpg" alt=""></a></div>
+                    <div class="image"><a href="product_list.php?category=captan-custo-kokteyl-suruplari"><img src="images/captain-custo-premium.jpg" alt=""></a></div>
                     <h3><a href="product_list.php?category=captan-custo-kokteyl-suruplari">Captain Custo Kokteyl Şurupları</a></h3>
                     <div class="more-link"><a href="product_list.php?category=captan-custo-kokteyl-suruplari">Hepsini Gör</a></div>
                 </div>

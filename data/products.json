@@ -1,5 +1,4 @@
-[
-    {
+[{
         "product_name": "Dubai",
         "product_images": "images/product/captainCustoAlkolsuzSampanya/dubai.png",
         "product_description": "Üzüm Aromalı",
@@ -36,15 +35,16 @@
         "product_images": "images/product/bojeMoyKokteylSuruplari/antmey-kokyteyl-surubu-kolisi.png",
         "product_description": "Etkileyici tatlardan biri olan Captain Custo acı badem şurubu yeni ve farklı tatlar oluşturmak isteyen herkesin kullanmasını isteyeceğimiz sıradışı bir lezzet olarak nitelendirebiliriz.",
         "category_url": "boje-moy-kokteyl-suruplari"
-    } ,
+    },
+
+
     {
         "product_name": "Acı Badem",
         "product_images": "images/product/bojeMoyKokteylSuruplari/aci-badem.png",
         "product_description": "",
         "category_url": "boje-moy-kokteyl-suruplari"
-    }
-    ,
-    
+    },
+
     {
         "product_name": "Böğürtlen",
         "product_images": "images/product/bojeMoyKokteylSuruplari/bogurtlen.png",
@@ -171,12 +171,12 @@
         "product_description": "İtalya`dan özel olarak getirilen misket limonlarından oluşturulan Boje Moy yeşil limon şurubu hazırlayacağınız kokteyl, frozen gibi birçok çeşit içecekte size ferahlatıcı bir tad sunar.",
         "category_url": "boje-moy-kokteyl-suruplari"
     }
-    
 
 
 
 
-    
+
+
     ,
     {
         "product_name": "Antmey Kokteyl Şurubu Kolisi",
@@ -205,13 +205,13 @@
     {
         "product_name": "Karpuz",
         "product_images": "images/product/captainCustoKokteylSuruplari/karpuz.png",
-        "product_description": "",
+        "product_description": "Yazın serinliğini kokteyllerinize taşıyoruz. Karpuzun doğal ve ferah aromasını, belirtilen ölçülerde kullanıldığı takdirde kusursuz bir şekilde deneyimleyebileceksiniz",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
         "product_name": "Kavun",
         "product_images": "images/product/captainCustoKokteylSuruplari/kavun.png",
-        "product_description": "",
+        "product_description": "Kavunun ferahlığını ve yoğun tadını klasik bar şişelerimize aktardık. Sezonun vazgeçilmez tadlarından olan kavunun doğal formülüyle beraber Captain Custo kokteyl şurubu şişelerimizde bulabilirsiniz",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
@@ -223,14 +223,13 @@
     {
         "product_name": "Mango",
         "product_images": "images/product/captainCustoKokteylSuruplari/mango.png",
-        "product_description": "",
+        "product_description": "Premium kalitede olan mangoları Hindistan’dan ithal etmekteyiz. Şurup haline getirerek tropikal esintiyi içeceklerinizle buluşturmaktayız",
         "category_url": "captan-custo-kokteyl-suruplari"
-    }
-    ,
+    },
     {
         "product_name": "Mojito",
         "product_images": "images/product/captainCustoKokteylSuruplari/mojito.png",
-        "product_description": "",
+        "product_description": "Baristaların her birinin vazgeçilmezi olan ve dünyada da en bilinen kokteyllerden olan mojitoyu doğal bir şekilde şişelerimize sığdırdık. Mojitoyu eşsiz bir tat olarak sunmak ve hazırlamak artık daha rahat.",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
@@ -242,7 +241,7 @@
     {
         "product_name": "Nane",
         "product_images": "images/product/captainCustoKokteylSuruplari/nane.png",
-        "product_description": "",
+        "product_description": "Serinlik hissiyatını özellikle limonata ve kokteyllerinizde en derin şekilde hissedeceksiniz. Kaliteli aroması ve bahar esintisiyle birlikte karışımlarınıza değer katmayı bekliyor",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
@@ -254,7 +253,7 @@
     {
         "product_name": "Tatlı Ekşi",
         "product_images": "images/product/captainCustoKokteylSuruplari/tatli-eksi.png",
-        "product_description": "",
+        "product_description": "Özellikle bilinen kokteyllerden long ısland yapımı için kullanılabilen ender bir şurup çeşidimizdir. Tatlı ve Ekşiyi bir araya getirerek özel ve doğal limonata yapımında da kullanılabilmektedir",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
@@ -266,13 +265,13 @@
     {
         "product_name": "Vanilya",
         "product_images": "images/product/captainCustoKokteylSuruplari/vanilya.png",
-        "product_description": "",
+        "product_description": "Kahve çeşitlerine eşsiz bir aroma katmak ve aynı zamanda bar ekipleri tarafından farklı ve benzersiz tatlar oluşturmak için kullanılan premium ürünlerimizdendir. İçeceklerinize değer katmak için vitrinlerimizde sizleri beklemektedir",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
         "product_name": "Yeşil Elma",
         "product_images": "images/product/captainCustoKokteylSuruplari/yesil-elma.png",
-        "product_description": "",
+        "product_description": "Premium kalite meyve kullanarak elma özütünü şişelerimize doğrudan en uygun formüller ile aktarmaktayız.. Yeşil elmanın hafif ekşiliğini hazırlayacağınız kokteyl ve diğer içeceklerinizde doğrudan hissedeceksiniz",
         "category_url": "captan-custo-kokteyl-suruplari"
     },
     {
@@ -282,19 +281,13 @@
         "category_url": "captan-custo-kokteyl-suruplari"
     }
 
-
-
-
-
-
-
     ,
     {
         "product_name": "Çilek",
         "product_images": "images/product/captainCustoPure/cilek.png",
         "product_description": "Alışık olduğunuz çilekli frozen tadına bir farkındalık getiriyor ve size en özel tadları  Captain Custo çilek püresi şişeleriyle sunuyoruz. Frozen, çileğin doğal haliyle daha güzel.. ",
         "category_url": "captan-custo-pure"
-    } ,
+    },
     {
         "product_name": "Karpuz",
         "product_images": "images/product/captainCustoPure/karpuz.png",
@@ -310,7 +303,7 @@
     {
         "product_name": "Orman Meyveli",
         "product_images": "images/product/captainCustoPure/orman-meyveli.png",
-        "product_description": "",
+        "product_description": "Antioksidanlarla dolu orman meyvelerini Captain Custo Orman Meyveli püresi olarak sizlere sunuyoruz. Egzotik aromasıyla size bambaşka bir tat verecek lezzetli bir frozen yaratmak için orman meyveli püremizi buzla karıştırabilirsiniz",
         "category_url": "captan-custo-pure"
     },
     {
@@ -326,7 +319,7 @@
         "category_url": "captan-custo-pure"
     }
 
-    
+
 
 
 
@@ -413,17 +406,17 @@
 
 
 
-    ,{
+    , {
         "product_name": "Makine",
         "product_images": "images/product/meymiksKonsantreIcecekler/makine4.png",
         "product_description": "1+20, Portakal, Limon, Vişne, Elma, Şeftali, Ananas",
         "category_url": "meymiks-konsantre-icecekler"
-    },  {
+    }, {
         "product_name": "Makine",
         "product_images": "images/product/meymiksKonsantreIcecekler/makine3.png",
         "product_description": "1+20, Portakal, Limon, Vişne, Elma, Şeftali, Ananas",
         "category_url": "meymiks-konsantre-icecekler"
-    },{
+    }, {
         "product_name": "Makine",
         "product_images": "images/product/meymiksKonsantreIcecekler/makine1.png",
         "product_description": "1+4 Doğal limonata, Taze portakal suyu",
@@ -441,9 +434,9 @@
         "product_description": "",
         "category_url": "meymiks-konsantre-icecekler"
     },
-    
-  
-    
+
+
+
     {
         "product_name": "Meymiks Bag In Box Kolisi",
         "product_images": "images/product/meymiksKonsantreIcecekler/meymiks-bag-in-box-kolisi.png",
@@ -459,24 +452,23 @@
         "product_images": "images/product/tazeMeyveSulari/makine1.png",
         "product_description": "",
         "category_url": "taze-meyve-sulari"
-    }
-    ,
+    },
     {
         "product_name": "Makine",
         "product_images": "images/product/tazeMeyveSulari/makine2.png",
         "product_description": "",
         "category_url": "taze-meyve-sulari"
-    } ,
+    },
     {
         "product_name": "Meymiks Limonata",
         "product_images": "images/product/tazeMeyveSulari/meymiks-limonata.png",
-        "product_description": "",
+        "product_description": "Dondurulmuş limonatamızı renklendirici veya tatlandırıcı içermeyen, özenle seçilmiş limonlardan %100 doğal olarak üretiyoruz. Limonata şişelerimizi ISO22000 belgesi güvencesiyle kullanabilirsiniz. Ürünümüz -18 derecede muhafaza edilmektedir. Dondurulmuş olarak size teslim edildikten sonra +4 derecede eritip 1'e 4 oranında su ile karıştırarak serinletici bir limonata yapabilirsiniz",
         "category_url": "taze-meyve-sulari"
     },
     {
         "product_name": "Meymiks Portakal Suyu",
         "product_images": "images/product/tazeMeyveSulari/meymiks-portakal-suyu.png",
-        "product_description": "",
+        "product_description": "Dondurulmuş Portakal Suyumuzu renklendirici veya tatlandırıcı içermeyen, özenle seçilmiş portakallardan %100 doğal olarak üretiyoruz. Portakal Suyu şişelerimizi ISO22000 belgesi güvencesiyle kullanabilirsiniz. Ürünümüz -18 derecede muhafaza edilmektedir. Dondurulmuş olarak size teslim edildikten sonra +4 derecede eritip 1'e 4 oranında su ile karıştırarak serinletici bir portakal suyu yapabilirsiniz",
         "category_url": "taze-meyve-sulari"
     }
 

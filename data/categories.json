@@ -1,43 +1,41 @@
-[
-    {
+[{
         "category_name": "Captain Custo <br> Alkolsüz Şampanya",
-        "category_image": "images/product/captainCustoAlkolsuzSampanya/kapak-foto.png",
+        "category_image": "images/kapak/captain-custo-alkolsuz-sampanya-kategori-kapak-foto.jpg",
         "category_url": "captan-custo-alkolsuz-sampanya"
     },
     {
         "category_name": "Captain Custo <br> Kokteyl Şurupları",
-        "category_image": "images/product/captainCustoKokteylSuruplari/kapak-foto.png",
+        "category_image": "images/kapak/captain-custo-kokteyl-surup-kategori-kapak-foto.jpg",
         "category_url": "captan-custo-kokteyl-suruplari"
-    },{
+    }, {
         "category_name": "Boje Moy <br> Kokteyl Şurupları",
-        "category_image": "images/product/bojeMoyKokteylSuruplari/kapak-foto.png",
+        "category_image": "images/kapak/boje-moy-kokteyl-surup-kapak.jpg",
         "category_url": "boje-moy-kokteyl-suruplari"
-    },{
+    }, {
         "category_name": "Meymiks <br>  Konsantre İçecekler <br> (Meyveli Şuruplar)",
-        "category_image": "images/product/meymiksKonsantreIcecekler/kapak-foto.png",
+        "category_image": "images/kapak/meymiks-konsantre-icecekler-kategori-kapak-foto.jpg",
         "category_url": "meymiks-konsantre-icecekler"
-    }
-    ,{
+    }, {
         "category_name": "Taze Meyve Suları",
-        "category_image": "images/product/tazeMeyveSulari/kapak-foto.png",
+        "category_image": "images/kapak/taze-meyve-sulari-kategori-kapak-foto.jpg",
         "category_url": "taze-meyve-sulari"
     },
     {
         "category_name": "Captain Custo Püre",
-        "category_image": "images/product/captainCustoPure/kapak-foto.png",
+        "category_image": "images/kapak/captain-custo-pure-kategori-kapak-foto.jpg",
         "category_url": "captan-custo-pure"
     },
     {
         "category_name": "Captain Custo <br> Topping Dekor Sosları",
-        "category_image": "images/product/captainCustoToppingDekorSoslari/kapak-foto.png",
+        "category_image": "images/kapak/captain-custo-topping-dekor-soslari-kategori-kapak-foto.jpg",
         "category_url": "captan-custo-puretopping-dekor-soslari"
-    },{
+    }, {
         "category_name": "Gazlı İçecekler",
-        "category_image": "images/product/gazliIcecekler/kapak-foto.png",
+        "category_image": "images/kapak/gazli-icecekler-kategori-kapak-foto.jpg",
         "category_url": "gazli-icecekler"
-    },{
+    }, {
         "category_name": "Meymiks Karlama",
-        "category_image": "images/product/meymiksKarlama/kapak-foto.png",
+        "category_image": "images/kapak/meymiks-konsantre-icecekler-kategori-kapak-foto.jpg",
         "category_url": "meymiks-karlama"
     }
 

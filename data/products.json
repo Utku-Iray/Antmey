@@ -30,10 +30,12 @@
     },
 
 
+
+
     {
         "product_name": "Antmey Kokteyl Şurubu Kolisi",
         "product_images": "images/product/bojeMoyKokteylSuruplari/antmey-kokyteyl-surubu-kolisi.png",
-        "product_description": "Etkileyici tatlardan biri olan Captain Custo acı badem şurubu yeni ve farklı tatlar oluşturmak isteyen herkesin kullanmasını isteyeceğimiz sıradışı bir lezzet olarak nitelendirebiliriz.",
+        "product_description": "",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
 
@@ -41,7 +43,7 @@
     {
         "product_name": "Acı Badem",
         "product_images": "images/product/bojeMoyKokteylSuruplari/aci-badem.png",
-        "product_description": "",
+        "product_description": "Etkileyici tatlardan biri olan Boje Moy Acı Badem şurubu yeni ve farklı tatlar oluşturmak isteyen herkesin kullanmasını isteyeceğimiz sıra dışı bir lezzet olarak nitelendirebiliriz.",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
 
@@ -54,7 +56,7 @@
     {
         "product_name": "Çarkı Felek",
         "product_images": "images/product/bojeMoyKokteylSuruplari/carkifelek.png",
-        "product_description": "",
+        "product_description": "Egzotik sıra dışı içeceklerinize farklı bir imza katmak için Boje Moy Çarkıfelek şurubumuzu önermekteyiz. Son yıllarda çarkıfelek aroması kokteyllere özgünlük ve lezzet katmakta olduğunu gözlemlemekteyiz.",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -66,7 +68,7 @@
     {
         "product_name": "Çilek",
         "product_images": "images/product/bojeMoyKokteylSuruplari/cilek.png",
-        "product_description": "",
+        "product_description": "Doğanın bize bir hediyesi olan çileğin muhteşem kırmızısını gözlerinizle hissederken aynı zamanda eşsiz tadını ve kokusunu hazırlayacağınız kokteyllerde şuruplarımızdan alabilirsiniz.",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -96,13 +98,13 @@
     {
         "product_name": "Kavun",
         "product_images": "images/product/bojeMoyKokteylSuruplari/kavun.png",
-        "product_description": "",
+        "product_description": "Kavunun ferahlığını ve yoğun tadını klasik bar şişelerimize aktardık. Sezonun vazgeçilmez tadlarından olan kavunun doğal formülüyle beraber Boje Moy kokteyl şurubu şişelerimizde bulabilirsiniz.",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
         "product_name": "Mürver Çiçeği",
         "product_images": "images/product/bojeMoyKokteylSuruplari/murver-cicegi.png",
-        "product_description": "",
+        "product_description": "Günümüz kokteyllerin yapı taşlarından olan mürver çiçeği aroması kokteyllerinize doğa esintisi katacaktır. Boje Moy Mürver Çiçeği şurubu ile içeceklerinize orijinal bir tat verebileceksiniz.",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -126,19 +128,19 @@
     {
         "product_name": "Portakal",
         "product_images": "images/product/bojeMoyKokteylSuruplari/portakal.png",
-        "product_description": "",
+        "product_description": "Aroma ve renk yoğunluğunu en kaliteli sunumlarda ve lezzetli halde kullanabilmeniz Boje Moy Portakal Şurubu ile mümkündür. Klasik, estetik ve özel kokteyl şurubu şişelerimiz de ayrıca vitrininize hava katacaktır.",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
         "product_name": "Şeftali",
         "product_images": "images/product/bojeMoyKokteylSuruplari/seftali.png",
-        "product_description": "Captain Custo şeftali şurubu şişesini ilk açtığınız an alacağınız koku şeftalinin uzun yaşam ve ölümsüzlük sembolü olduğunu kanıtlar niteliktedir. Enfes tadlar için bir an önce siz de şeftali şurubu ile kokteyl yapmaya başlayın. ",
+        "product_description": "Boje Moy şeftali şurubu şişesini ilk açtığınız an alacağınız koku şeftalinin uzun yaşam ve ölümsüzlük sembolü olduğunu kanıtlar niteliktedir. Enfes tadlar için bir an önce siz de şeftali şurubu ile kokteyl yapmaya başlayın. ",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
         "product_name": "Şeker Kamışı",
         "product_images": "images/product/bojeMoyKokteylSuruplari/seker-kamisi.png",
-        "product_description": "Küba`dan ithal edilen şeker kamışları ile %100 doğal olarak hazırlanan Captain Custo şeker kamışı şurubu genellikle kokteyllerde tad dengesini ayarlamak ve kokteyli tatlandırmak için kullanılmaktadır.",
+        "product_description": "Küba`dan ithal edilen şeker kamışları ile %100 doğal olarak hazırlanan Boje Moy şeker kamışı şurubu genellikle kokteyllerde tad dengesini ayarlamak ve kokteyli tatlandırmak için kullanılmaktadır.",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -156,7 +158,7 @@
     {
         "product_name": "Yaban Mersini",
         "product_images": "images/product/bojeMoyKokteylSuruplari/yaban-mersini.png",
-        "product_description": "",
+        "product_description": "Tropikal bir meyve olan yaban mersinini klasik ve estetik Boje Moy kokteyl şurubu şişelerimize aktarıyoruz. Yapacağınız içecekler ve diğer pastalarda da ayrıca kullanabilirsiniz.",
         "category_url": "boje-moy-kokteyl-suruplari"
     },
     {
@@ -383,26 +385,6 @@
 
 
 
-
-    ,
-    {
-        "product_name": "Çilek",
-        "product_images": "images/product/meymiksKarlama/cilek.png",
-        "product_description": "",
-        "category_url": "meymiks-karlama"
-    },
-    {
-        "product_name": "Limon",
-        "product_images": "images/product/meymiksKarlama/limon.png",
-        "product_description": "",
-        "category_url": "meymiks-karlama"
-    },
-    {
-        "product_name": "Yeşil Kavun",
-        "product_images": "images/product/meymiksKarlama/yesil-kavun.png",
-        "product_description": "",
-        "category_url": "meymiks-karlama"
-    }
 
 
 

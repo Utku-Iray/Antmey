@@ -1,0 +1,35 @@
+
+//Ürün
+
+[
+{
+    "product_name": "Çilek",
+    "product_images": "images/product/meymiksKarlama/cilek.png",
+    "product_description": "",
+    "category_url": "meymiks-karlama"
+},
+{
+    "product_name": "Limon",
+    "product_images": "images/product/meymiksKarlama/limon.png",
+    "product_description": "",
+    "category_url": "meymiks-karlama"
+},
+{
+    "product_name": "Yeşil Kavun",
+    "product_images": "images/product/meymiksKarlama/yesil-kavun.png",
+    "product_description": "",
+    "category_url": "meymiks-karlama"
+}
+
+]
+
+
+//Kategori
+
+[
+    , {
+        "category_name": "Meymiks Karlama",
+        "category_image": "images/kapak/meymiks-konsantre-icecekler-kategori-kapak-foto.jpg",
+        "category_url": "meymiks-karlama"
+    }
+]

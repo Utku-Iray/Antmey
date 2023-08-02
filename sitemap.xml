@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://antmey.com/</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://antmey.com/index.php</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/hakkimizda.php</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/product_list.php?category=captan-custo-alkolsuz-sampanya</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/product_list.php?category=captan-custo-kokteyl-suruplari</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/product_list.php?category=boje-moy-kokteyl-suruplari</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/product_list.php?category=meymiks-konsantre-icecekler</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/product_list.php?category=taze-meyve-sulari</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/product_list.php?category=captan-custo-pure</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/product_list.php?category=captan-custo-puretopping-dekor-soslari</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/product_list.php?category=gazli-icecekler</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/pdf/antmeyKatalog.pdf</loc>
+  <lastmod>2023-06-15T14:09:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/iletisim.php</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://antmey.com/form.php</loc>
+  <lastmod>2023-07-24T07:23:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
